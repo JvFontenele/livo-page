@@ -1,21 +1,27 @@
 <template>
   <header class="header">
     <Logo class="logo" />
-    <div>
-      <ButtonsHeader title="LIVO COMERCIAL" />
+    <div class="boxBtn">
+      <ButtonsHeader
+        title="LIVO COMERCIAL"
+        icon="/src/assets/secao1/whatsIcon.svg"
+      />
+      <ButtonsHeader
+        title="LIVO WEB"
+        icon="/src/assets/secao1/headersetinhaIcon.svg"
+      />
     </div>
   </header>
 </template>
 
 <script setup>
-import ButtonsHeaderVue from "./buttons/ButtonsHeader.vue";
+import ButtonsHeader from "./buttons/ButtonsHeader.vue";
 import Logo from "./icons/Logo.vue";
 </script>
 
 <style scoped>
 .header {
-  background: var(--vt-c-white);
-  height: 90px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,6 +30,11 @@ import Logo from "./icons/Logo.vue";
 }
 
 .logo {
-  width: 60px;
+  width: 100px;
+}
+
+.boxBtn {
+  display: flex;
+  width: 400px;
 }
 </style>

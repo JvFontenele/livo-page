@@ -1,5 +1,10 @@
 @import "./base.css";
 
+@font-face {
+  font-family: "ArticulatCF";
+  src: url("./fonts/ArticulatCF-Light.otf") format("opentype");
+}
+
 /* #app {
   max-width: 1280px;
   margin: 0 auto;
