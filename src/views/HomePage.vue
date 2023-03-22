@@ -2,10 +2,7 @@
   <main>
     <Header />
     <Section1 class="section1" />
-    <div>
-      <Section2 class="section2" />
-    </div>
-
+    <Section2 class="section2" />
     <Footer />
   </main>
 </template>
@@ -18,11 +15,21 @@ import Section2 from "../components/Sections/Section2.vue";
 </script>
 
 <style scoped>
-.section2 {
+.section1 {
+  position: absolute;
+}
+
+/* .section2 {
   min-width: 100%;
   position: relative;
   min-height: 120px;
   top: -500px;
-  /* height: 100vh; */
+
+} */
+
+@media screen and (max-width: 400px) {
+  .section1 {
+    position: absolute;
+  }
 }
 </style>

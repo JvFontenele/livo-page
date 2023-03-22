@@ -15,7 +15,7 @@ const props = defineProps(["title", "icon"]);
 .btn {
   background: var(--color-btn-header);
   color: var(--color-gray);
-  width: 172px;
+  min-width: 172px;
   display: flex;
   height: 42px;
   align-items: center;
@@ -36,5 +36,27 @@ const props = defineProps(["title", "icon"]);
   width: 20px;
   margin-bottom: 2px;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    min-width: 130px;
+    font-size: 0.7em;
+    padding: 0px 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btn {
+    min-width: 110px;
+    height: 32px;
+    font-size: 0.6em;
+    padding: 0px 0px;
+  }
+  .img {
+    width: 15px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+  }
 }
 </style>

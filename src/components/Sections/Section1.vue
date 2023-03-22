@@ -27,15 +27,15 @@
 
 .box {
   display: block;
-  padding: 2em 9em 7em 15vw;
+  padding: 0em 9em 7em 15vw;
 }
 
 h1 {
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
-  font-size: 5.5em;
-  line-height: 1em;
+  font-size: 6.2vw;
+  line-height: 0.8em;
   margin: 0 0 20px 0;
   color: var(--color-margenta);
 }
@@ -43,7 +43,50 @@ p {
   margin: 0;
   padding: 0;
   font-family: "ArticulatCF";
-  font-size: 2em;
+  font-size: 1.7vw;
   line-height: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    display: block;
+    padding: 0em 9em 5em 10vw;
+  }
+  h1 {
+    font-size: 6vw;
+    line-height: 0.9em;
+    margin: 0 0 10px 0;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    font-family: "ArticulatCF";
+    font-size: 2.2vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #section1 {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 500px;
+  }
+  .box {
+    display: block;
+    padding: 3vw 0em 0em 10vw;
+  }
+  h1 {
+    font-size: 5vw;
+    line-height: 0.8em;
+    margin: 0 0 10px 0;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    font-family: "ArticulatCF";
+    font-size: 2.5vw;
+  }
 }
 </style>

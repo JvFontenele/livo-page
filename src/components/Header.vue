@@ -21,6 +21,7 @@ import Logo from "./icons/Logo.vue";
 
 <style scoped>
 .header {
+  width: 100%;
   height: 120px;
   display: flex;
   align-items: center;
@@ -30,11 +31,50 @@ import Logo from "./icons/Logo.vue";
 }
 
 .logo {
-  width: 100px;
+  min-width: 90px;
+  max-width: 95px;
 }
 
 .boxBtn {
   display: flex;
   width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: 120px;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .logo {
+    min-width: 60px;
+    max-width: 70px;
+  }
+
+  .boxBtn {
+    display: flex;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    height: 60px;
+    justify-content: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .logo {
+    min-width: 50px;
+    max-width: 60px;
+    /* margin-right: 15px; */
+  }
+
+  .boxBtn {
+    display: flex;
+    max-width: 250px;
+  }
 }
 </style>
