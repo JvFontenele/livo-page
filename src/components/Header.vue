@@ -60,7 +60,7 @@ import Logo from "./icons/Logo.vue";
 
 @media screen and (max-width: 400px) {
   .header {
-    height: 60px;
+    height: 70px;
     justify-content: none;
     padding: 0;
     margin: 0;

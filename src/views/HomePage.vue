@@ -18,18 +18,11 @@ import Section2 from "../components/Sections/Section2.vue";
 .section1 {
   position: absolute;
 }
-
-/* .section2 {
-  min-width: 100%;
-  position: relative;
-  min-height: 120px;
-  top: -500px;
-
-} */
-
 @media screen and (max-width: 400px) {
   .section1 {
     position: absolute;
+  }
+  .section2 {
   }
 }
 </style>

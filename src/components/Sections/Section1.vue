@@ -6,7 +6,9 @@
         o novo aplicativo <br />
         do seu condomínio
       </h1>
-      <p>
+      {{ windowWidth.innerWidth }}
+
+      <p v-if="windowWidth > 400">
         Controle de acesso, encomendas, reservas, <br />
         comunicados entre diversas soluções para te levar <br />
         do ZERO – 100 % Tecnológico.
@@ -15,7 +17,9 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+const windowWidth = window.innerWidth;
+</script>
 
 <style scoped>
 #section1 {
@@ -78,7 +82,7 @@ p {
     padding: 3vw 0em 0em 10vw;
   }
   h1 {
-    font-size: 5vw;
+    font-size: 9vw;
     line-height: 0.8em;
     margin: 0 0 10px 0;
   }
@@ -86,7 +90,8 @@ p {
     margin: 0;
     padding: 0;
     font-family: "ArticulatCF";
-    font-size: 2.5vw;
+    font-size: 4vw;
+    max-width: 280px;
   }
 }
 </style>

@@ -9,7 +9,7 @@
 
     <div class="conteudo">
       <div class="boxConteudo">
-        <h1>#LIVOspace</h1>
+        <h1><LogoSNome class="logo" /><span>#LIVO</span>space</h1>
         <div class="box-descricao">
           <h2>
             Nossa maior missão é diminuir <br />
@@ -26,7 +26,9 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import LogoSNome from "../icons/LogoSNome.vue";
+</script>
 
 <style scoped>
 #section2 {
@@ -47,14 +49,12 @@
   width: 100%;
   height: 67.8%;
   z-index: 2;
-  border: 5px solid red;
 }
 
 .boxConteudo {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   color: var(--color-gray);
 }
@@ -63,7 +63,27 @@ h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 5vw;
   font-weight: 600;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27vw;
+}
+
+.logo {
+  width: 5vw;
+  display: block;
+  margin-right: 10px;
+}
+
+h1 span::before {
+  content: " ";
+  display: inline-block;
+  font-weight: bolder;
+  height: 5vw;
+  top: 0.8vw;
+  margin: 0px 3vw;
+  width: 3px;
+  background: var(--color-gray);
 }
 
 .box-descricao {
@@ -104,8 +124,37 @@ p {
     margin: 0;
     padding: 0;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 120px;
     position: relative;
+  }
+  .conteudo {
+    position: absolute;
+    top: 57vw;
+    width: 100%;
+    height: 67.8%;
+    z-index: 2;
+  }
+  .box-descricao {
+    padding: 0 15vw;
+  }
+
+  h1 span::before {
+    width: 1px;
+  }
+  h1 {
+    margin-top: 15px;
+    height: 23vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+    line-height: 1.2em;
+  }
+  p {
+    margin: 10px 0;
+    font-size: 2vw;
+    font-weight: 200;
+    padding: 0;
   }
 }
 </style>
