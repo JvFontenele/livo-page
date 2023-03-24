@@ -40,7 +40,7 @@ h1 {
   font-weight: 600;
   font-size: 6.2vw;
   line-height: 0.8em;
-  margin: 0 0 20px 0;
+  margin: 0 0 35px 0;
   color: var(--color-margenta);
 }
 p {

@@ -18,7 +18,7 @@
           </h2>
           <p>Chegou o seu momento de entrar em uma nova Era.</p>
           <div class="btn-conteudo">
-            <span>#LIVOspace</span> Conecte seu condomínio
+            <span>#LIVOspace</span> Conecte seu condomínio.
           </div>
         </div>
       </div>
@@ -61,16 +61,16 @@ import LogoSNome from "../icons/LogoSNome.vue";
 
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 27vw;
+  height: 25vw;
 }
 
 .logo {
-  width: 5vw;
+  width: 6vw;
   display: block;
   margin-right: 10px;
 }
@@ -95,7 +95,7 @@ h2 {
   line-height: 1.2em;
 }
 p {
-  margin: 10px 0;
+  margin: 25px 0;
   font-size: 2vw;
   font-weight: 200;
   padding: 0;
@@ -103,11 +103,19 @@ p {
 
 .btn-conteudo {
   background: var(--color-gray);
-  color: var(--color-margenta);
-  padding: 5px;
+  color: var(--color-margenta-light);
+  display: flex;
+  align-items: center;
+  height: 4vw;
+  width: 45vw;
   border-radius: 80px;
-  font-size: 2vw;
-  line-height: 1.2em;
+  font-size: 2.5vw;
+}
+
+.btn-conteudo span {
+  margin-left: 25px;
+  margin-right: 5px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 600px) {
