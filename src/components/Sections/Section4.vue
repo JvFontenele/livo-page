@@ -1,11 +1,7 @@
 <template>
   <section id="section2">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img
-      class="background"
-      src="../../assets/secao2/background-foquete.svg"
-      alt=""
-    />
+    <img class="background" src="../../assets/secao4/background.svg" alt="" />
 
     <div class="conteudo">
       <div class="boxConteudo">
@@ -34,8 +30,8 @@ import LogoSNome from "../icons/LogoSNome.vue";
 #section2 {
   background: none;
   margin: 0;
-
   padding: 0;
+  margin-top: -8px;
 }
 
 .background {

@@ -6,8 +6,8 @@
 
 <style scoped>
 .footer {
-  background: #e5e5e5;
-  height: 90px;
+  background: #1d1d1b;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
