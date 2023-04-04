@@ -5,7 +5,62 @@
 
     <div class="conteudo">
       <div class="boxConteudo">
-        <h1><LogoSNome class="logo" /><span>#LIVO</span>space</h1>
+        <h1>Ferramentas LIVO</h1>
+        <div class="boxIcones">
+          <div class="cardIcons">
+            <img src="../../assets/secao3/checklist.svg" alt="" />
+            <div>
+              <p class="titulo_cardIcons">Entregas</p>
+              <p>
+                Acompanhe cada encomenda que chega. <br />
+                Para retirar, use assinatura digital via app.
+              </p>
+            </div>
+          </div>
+
+          <div class="cardIcons">
+            <img src="../../assets/secao3/carregar.svg" alt="" />
+            <div>
+              <p class="titulo_cardIcons">Recorrente</p>
+              <p>
+                Convites liberados para visita recorrente. <br />
+                Você escolhe o dia e a hora.
+              </p>
+            </div>
+          </div>
+          <div class="cardIcons">
+            <img src="../../assets/secao3/qrcode.svg" alt="" />
+            <div>
+              <p class="titulo_cardIcons">QR Code/ FACIAL</p>
+              <p>
+                Libera a entra e saída de visitas <br />e prestadores de
+                serviços.
+              </p>
+            </div>
+          </div>
+          <div class="cardIcons">
+            <img src="../../assets/secao3/carregar.svg" alt="" />
+            <div>
+              <p class="titulo_cardIcons">Recorrente</p>
+              <p>
+                Convites liberados para visita recorrente. <br />
+                Você escolhe o dia e a hora.
+              </p>
+            </div>
+          </div>
+          <div class="cardIcons">
+            <img src="../../assets/secao3/carregar.svg" alt="" />
+            <div>
+              <p class="titulo_cardIcons">Recorrente</p>
+              <p>
+                Convites liberados para visita recorrente. <br />Você escolhe o
+                dia e a hora.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  
         <div class="box-descricao">
           <h2>
             Nossa maior missão é diminuir <br />
@@ -16,15 +71,13 @@
           <div class="btn-conteudo">
             <span>#LIVOspace</span> Conecte seu condomínio.
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
 </template>
 
-<script setup>
-import LogoSNome from "../icons/LogoSNome.vue";
-</script>
+<script setup></script>
 
 <style scoped>
 #section2 {
@@ -42,9 +95,9 @@ import LogoSNome from "../icons/LogoSNome.vue";
 
 .conteudo {
   position: absolute;
-  top: 30vw;
+  top: -50px;
   width: 100%;
-  height: 67.8%;
+  height: 100%;
   z-index: 2;
 }
 
@@ -52,13 +105,14 @@ import LogoSNome from "../icons/LogoSNome.vue";
   width: 100%;
   height: 100%;
   display: flex;
+
   flex-direction: column;
   color: var(--color-gray);
 }
 
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 6vw;
+  font-size: 5.5vw;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -66,25 +120,46 @@ h1 {
   height: 25vw;
 }
 
-.logo {
-  width: 6vw;
-  display: block;
-  margin-right: 10px;
+.boxIcones {
+  /* background: red; */
+  width: 100%;
+  height: 500px;
+  padding: 0 12vw;
+  top: -80px;
 }
 
-h1 span::before {
-  content: " ";
-  display: inline-block;
-  font-weight: bolder;
-  height: 5vw;
-  top: 0.8vw;
-  margin: 0px 3vw;
-  width: 3px;
-  background: var(--color-gray);
+.cardIcons {
+  /* background: red; */
+  width: 50%;
+  display: flex;
+  margin-top: 15px;
+  height: 7vw;
+}
+
+.cardIcons img {
+  margin: 0;
+  padding: 0;
+  width: 65px;
+  margin-right: 25px;
+}
+.cardIcons div {
+  /* background: red; */
+}
+.cardIcons p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6vw;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+.titulo_cardIcons {
+  font-weight: 600 !important;
+  font-size: 1.6vw !important;
+  margin-bottom: 5px !important;
 }
 
 .box-descricao {
-  padding: 0 20vw;
+  padding: 0 20em;
 }
 
 h2 {
