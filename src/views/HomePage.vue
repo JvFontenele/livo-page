@@ -3,6 +3,7 @@
     <Header />
     <Section1 class="section1" />
     <Section2 class="section2" />
+    <Carrocel />
     <Section3 class="section2" />
     <Section4 class="section2" />
     <Footer class="footer" />
@@ -16,6 +17,7 @@ import Section1 from "../components/Sections/Section1.vue";
 import Section2 from "../components/Sections/Section2.vue";
 import Section3 from "../components/Sections/Section3.vue";
 import Section4 from "../components/Sections/Section4.vue";
+import Carrocel from "../components/Carrocel.vue";
 </script>
 
 <style scoped>

@@ -248,10 +248,9 @@ p {
   width: 65px;
   margin-right: 25px;
 }
-.cardIcons div {
-  /* background: red; */
-}
+
 .cardIcons p {
+  font-family: "ArticulatCF";
   margin: 0;
   padding: 0;
   font-size: 1.6vw;
