@@ -107,7 +107,7 @@
         </div>
         <div class="box-card">
           <div class="card">
-            <img src="../../assets/secao3/placa.svg" alt="" />
+            <img src="../../assets/secao3/celular.svg" alt="" />
             <div>
               <p class="titulo_card">App do proprietário</p>
               <p>
@@ -119,7 +119,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/secao3/placa.svg" alt="" />
+            <img src="../../assets/secao3/celular1.svg" alt="" />
             <div>
               <p class="titulo_card">Visitante e prestador</p>
               <p>
@@ -129,7 +129,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/secao3/placa.svg" alt="" />
+            <img src="../../assets/secao3/globo.svg" alt="" />
             <div>
               <p class="titulo_card">LIVO web</p>
               <p>
@@ -141,7 +141,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/secao3/placa.svg" alt="" />
+            <img src="../../assets/secao3/relatorio.svg" alt="" />
             <div>
               <p class="titulo_card">LIVO relatórios</p>
               <p>
@@ -307,7 +307,7 @@ p {
   width: 15vw;
   border-radius: 20px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .card div {
@@ -320,11 +320,11 @@ p {
 .titulo_card {
   font-weight: 500;
   font-size: 1.2vw !important;
-  margin: 0 0px 10px 0px !important;
+  margin: 0 0px 5px 0px !important;
 }
 .card img {
   width: 80px;
-  margin: 1.4vw 0 3vw 0;
+  margin: 1vw 0 2vw 0;
 }
 
 @media screen and (max-width: 600px) {
