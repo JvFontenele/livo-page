@@ -1,7 +1,7 @@
 <template>
   <section id="section2">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img class="background" src="../../assets/secao4/Group 2.png" alt="" />
+    <img class="background" src="../../assets/secao7/background.png" alt="" />
 
     <div class="conteudo"></div>
   </section>
