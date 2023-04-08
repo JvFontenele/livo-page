@@ -5,7 +5,7 @@
     <Section2 class="section2" />
     <Carrocel />
     <Section3 class="section2" />
-    <Section4 class="section2" />
+
     <Footer class="footer" />
   </main>
 </template>

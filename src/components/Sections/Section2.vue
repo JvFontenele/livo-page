@@ -110,11 +110,12 @@ p {
   height: 4vw;
   width: 45vw;
   border-radius: 80px;
-  font-size: 2.5vw;
+  font-size: 2.4vw;
+  font-weight: 300;
 }
 
 .btn-conteudo span {
-  margin-left: 25px;
+  margin-left: 20px;
   margin-right: 5px;
   font-weight: 600;
 }
