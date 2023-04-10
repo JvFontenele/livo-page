@@ -1,24 +1,9 @@
 <template>
   <section id="section2">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img class="background" src="../../assets/secao4/background.svg" alt="" />
+    <img class="background" src="../../assets/secao4/Group 2.png" alt="" />
 
-    <div class="conteudo">
-      <div class="boxConteudo">
-        <h1><LogoSNome class="logo" /><span>#LIVO</span>space</h1>
-        <div class="box-descricao">
-          <h2>
-            Nossa maior missão é diminuir <br />
-            burocracias, lentidão e falta de <br />
-            comunicação. <br />
-          </h2>
-          <p>Chegou o seu momento de entrar em uma nova Era.</p>
-          <div class="btn-conteudo">
-            <span>#LIVOspace</span> Conecte seu condomínio.
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="conteudo"></div>
   </section>
 </template>
 

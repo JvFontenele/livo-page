@@ -1,28 +1,9 @@
 <template>
   <section id="section2">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img
-      class="background"
-      src="../../assets/secao2/background-foquete.svg"
-      alt=""
-    />
+    <img class="background" src="../../assets/secao5/background.png" alt="" />
 
-    <div class="conteudo">
-      <div class="boxConteudo">
-        <h1><LogoSNome class="logo" /><span>#LIVO</span>space</h1>
-        <div class="box-descricao">
-          <h2>
-            Nossa maior missão é diminuir <br />
-            burocracias, lentidão e falta de <br />
-            comunicação. <br />
-          </h2>
-          <p>Chegou o seu momento de entrar em uma nova Era.</p>
-          <div class="btn-conteudo">
-            <span>#LIVOspace</span> Conecte seu condomínio.
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="conteudo"></div>
   </section>
 </template>
 
@@ -34,8 +15,8 @@ import LogoSNome from "../icons/LogoSNome.vue";
 #section2 {
   background: none;
   margin: 0;
-
   padding: 0;
+  margin-top: -8px;
 }
 
 .background {
@@ -110,12 +91,11 @@ p {
   height: 4vw;
   width: 45vw;
   border-radius: 80px;
-  font-size: 2.4vw;
-  font-weight: 300;
+  font-size: 2.5vw;
 }
 
 .btn-conteudo span {
-  margin-left: 20px;
+  margin-left: 25px;
   margin-right: 5px;
   font-weight: 600;
 }

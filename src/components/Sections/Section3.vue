@@ -107,7 +107,7 @@
         </div>
         <div class="box-card">
           <div class="card">
-            <img src="../../assets/secao3/placa.svg" alt="" />
+            <img src="../../assets/secao3/celular.svg" alt="" />
             <div>
               <p class="titulo_card">App do proprietário</p>
               <p>
@@ -119,7 +119,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/secao3/placa.svg" alt="" />
+            <img src="../../assets/secao3/celular1.svg" alt="" />
             <div>
               <p class="titulo_card">Visitante e prestador</p>
               <p>
@@ -129,7 +129,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/secao3/placa.svg" alt="" />
+            <img src="../../assets/secao3/globo.svg" alt="" />
             <div>
               <p class="titulo_card">LIVO web</p>
               <p>
@@ -141,7 +141,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/secao3/placa.svg" alt="" />
+            <img src="../../assets/secao3/relatorio.svg" alt="" />
             <div>
               <p class="titulo_card">LIVO relatórios</p>
               <p>
@@ -150,6 +150,38 @@
                 por meio de dados. Formato Power BI.<br />
               </p>
             </div>
+          </div>
+        </div>
+
+        <div class="box_branco">
+          <h1>Controle de acesso</h1>
+          <div class="card_branco">
+            <img src="../../assets/secao3/branco/Group-1.svg" alt="" />
+            <p class="titulo_branco">Liberação antecipada com QR CODE</p>
+          </div>
+          <div class="card_branco">
+            <img src="../../assets/secao3/branco/Group.svg" alt="" />
+            <p class="titulo_branco">
+              Não deixe sua visita esperando, elimine filas.
+            </p>
+          </div>
+          <div class="card_branco">
+            <img src="../../assets/secao3/branco/Group-2.svg" alt="" />
+            <p class="titulo_branco">
+              Tenha controle de acesso de entrada e saída do condomínio.
+            </p>
+          </div>
+          <div class="card_branco">
+            <img src="../../assets/secao3/branco/Group-3.svg" alt="" />
+            <p class="titulo_branco">
+              Tudo isso com maior segurança e agilidade.
+            </p>
+          </div>
+          <div class="card_branco">
+            <img src="../../assets/secao3/branco/Vector.svg" alt="" />
+            <p class="titulo_branco">
+              Todos os convites podem ser bloqueados antes de qualquer visita.
+            </p>
           </div>
         </div>
 
@@ -307,24 +339,53 @@ p {
   width: 15vw;
   border-radius: 20px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .card div {
   text-align: start;
 }
 .card p {
-  font-size: 0.79vw;
+  font-size: 0.7vw;
   margin: 0;
+  font-weight: 400;
 }
 .titulo_card {
   font-weight: 500;
   font-size: 1.2vw !important;
-  margin: 0 0px 10px 0px !important;
+  margin: 0 0px 5px 0px !important;
 }
 .card img {
   width: 80px;
-  margin: 1.4vw 0 3vw 0;
+  margin: 1vw 0 1vw 0;
+}
+
+.box_branco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box_branco h1 {
+  height: 150px;
+  margin-top: 60px;
+}
+.card_branco {
+  width: 70%;
+  background: white;
+  border-radius: 20px;
+  height: 90px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.card_branco img {
+  width: 50px;
+  margin: 0px 20px 0px 40px;
+}
+.card_branco p {
+  color: var(--color-margenta);
+  font-weight: 300;
+  font-size: 2vw;
 }
 
 @media screen and (max-width: 600px) {
