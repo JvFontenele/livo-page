@@ -3,12 +3,46 @@
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
     <img class="background" src="../../assets/secao5/background.png" alt="" />
 
-    <div class="conteudo"></div>
+    <div class="conteudo">
+      <div class="box1 card5">
+        <img src="../../assets/secao5/celular1.png" alt="" />
+
+        <div class="celular card1">
+          <h2>Mural</h2>
+          <p>
+            Papéis espalhados pelo condomínio<br />
+            ou email no spam?
+          </p>
+          <p class="bold">
+            O Novo mural Livo permite <br />
+            de forma organizada a comunicação<br />
+            de tudo o que acontece<br />
+            no condomínio.
+          </p>
+          <p class="card">Da campanha do agasalho à festa junina.</p>
+
+          <Loguinho class="loguinho"></Loguinho>
+        </div>
+      </div>
+      <div class="box1 card5 card4">
+        <img src="../../assets/secao5/celular2.png" alt="" />
+
+        <div class="celular card2">
+          <h2>Notificações</h2>
+          <p>
+            Agora se for algo como limpeza da fachada<br />
+            ou dedetização, o campo de notificações<br />
+            serve muito bem para isso.
+          </p>
+          <Loguinho class="loguinho"></Loguinho>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
 <script setup>
-import LogoSNome from "../icons/LogoSNome.vue";
+import Loguinho from "../icons/Loguinho.vue";
 </script>
 
 <style scoped>
@@ -16,7 +50,15 @@ import LogoSNome from "../icons/LogoSNome.vue";
   background: none;
   margin: 0;
   padding: 0;
-  margin-top: -8px;
+  margin-top: -0.7vw;
+}
+h1,
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: "ArticulatCF";
 }
 
 .background {
@@ -27,77 +69,92 @@ import LogoSNome from "../icons/LogoSNome.vue";
 
 .conteudo {
   position: absolute;
-  top: 30vw;
+  top: 0;
   width: 100%;
   height: 67.8%;
   z-index: 2;
-}
-
-.boxConteudo {
-  width: 100%;
-  height: 100%;
+  /* background: rgba(255, 0, 0, 0.105); */
+  color: var(--color-gray);
   display: flex;
   flex-direction: column;
-  color: var(--color-gray);
+  align-items: center;
 }
 
-h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 6vw;
-  font-weight: 600;
+.box1 {
+  margin-top: 4vw;
+  display: flex;
+  /* background: blue; */
+  align-items: center;
+}
+
+.card5 {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 25vw;
+  top: 3vw;
+  left: 1vw;
+}
+.card5 img {
+  width: 23vw;
 }
 
-.logo {
-  width: 6vw;
-  display: block;
-  margin-right: 10px;
+.celular {
+  left: 7vw;
+  top: -2vw;
+}
+.celular h2 {
+  font-size: 5vw;
+  font-weight: 600;
 }
 
-h1 span::before {
-  content: " ";
-  display: inline-block;
-  font-weight: bolder;
-  height: 5vw;
-  top: 0.8vw;
-  margin: 0px 3vw;
-  width: 3px;
-  background: var(--color-gray);
-}
-
-.box-descricao {
-  padding: 0 20vw;
-}
-
-h2 {
-  font-size: 4vw;
+.celular p {
+  width: 40vw;
+  font-size: 2vw;
+  font-weight: 400;
   line-height: 1.2em;
 }
-p {
-  margin: 25px 0;
+
+.bold {
+  margin-top: 1.8vw;
   font-size: 2vw;
-  font-weight: 200;
-  padding: 0;
+  font-weight: 700 !important;
+  line-height: 1.2em;
+}
+.card1 {
+  top: 1vw;
 }
 
-.btn-conteudo {
-  background: var(--color-gray);
-  color: var(--color-margenta-light);
-  display: flex;
-  align-items: center;
-  height: 4vw;
-  width: 45vw;
-  border-radius: 80px;
-  font-size: 2.5vw;
+.card4 {
+  margin-top: 8vw;
+}
+.card1 p {
+  font-size: 2vw;
+  margin-bottom: 40px;
 }
 
-.btn-conteudo span {
-  margin-left: 25px;
-  margin-right: 5px;
-  font-weight: 600;
+.card1 .bold {
+  margin-bottom: 0px;
+}
+
+.card1 .loguinho {
+  top: 4vw;
+  left: 28vw;
+}
+.loguinho {
+  top: -7vw;
+  width: 5vw;
+}
+
+.card2 .loguinho {
+  top: 10vw;
+}
+
+.card {
+  background: #9453d6;
+  border-radius: 8px;
+  margin-top: 2vw;
+  font-weight: 400 !important;
+
+  padding: 2px 10px;
 }
 
 @media screen and (max-width: 600px) {
