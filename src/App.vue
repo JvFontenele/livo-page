@@ -1,9 +1,11 @@
 <template>
   <RouterView />
+  <Whats />
 </template>
 
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+import Whats from "./components/Whats.vue";
 </script>
 
 <style>

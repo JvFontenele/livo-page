@@ -9,6 +9,7 @@
     <Section5 class="section2" />
     <Section6 class="section2" />
     <Section7 class="section2" />
+
     <Marcas />
     <Footer class="footer" />
   </main>
@@ -26,6 +27,7 @@ import Section6 from "../components/Sections/Section6.vue";
 import Section7 from "../components/Sections/Section7.vue";
 import Marcas from "../components/Marcas.vue";
 import Carrocel from "../components/Carrocel.vue";
+import Whats from "../components/Whats.vue";
 </script>
 
 <style scoped>
@@ -35,6 +37,7 @@ import Carrocel from "../components/Carrocel.vue";
 .footer {
   margin-top: -8px;
 }
+
 @media screen and (max-width: 400px) {
   .section1 {
     position: absolute;
