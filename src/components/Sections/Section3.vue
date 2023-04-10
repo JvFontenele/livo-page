@@ -335,11 +335,11 @@ p {
 }
 .card {
   background: rgba(202, 110, 237, 0.6);
-  height: 20vw;
-  width: 15vw;
+  height: 21vw;
+  width: 17vw;
   border-radius: 20px;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 .card div {
@@ -356,8 +356,8 @@ p {
   margin: 0 0px 5px 0px !important;
 }
 .card img {
-  width: 80px;
-  margin: 1vw 0 1vw 0;
+  width: 6vw;
+  margin: 1vw 0 0.2vw 0;
 }
 
 .box_branco {
@@ -390,7 +390,83 @@ p {
 
 @media screen and (max-width: 600px) {
 }
+@media screen and (max-width: 1200px) {
+  #section2 {
+    background: none;
+    margin: 0;
+    margin-top: -6px;
+    padding: 0;
+  }
+  /* .background {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 120px;
+    position: relative;
+  } */
+  .conteudo {
+    position: absolute;
+    top: 05vw;
+    width: 100%;
+    height: 67.8%;
+    z-index: 2;
+  }
 
+  .boxIcones {
+    /* background: red; */
+    width: 100%;
+    height: 40vw;
+    padding: 0 12vw;
+    top: 20px;
+  }
+
+  .box-card {
+    top: 20px;
+    display: flex;
+    padding: 10vw;
+    margin-top: 5vw;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .boxBtn {
+    /* background: rebeccapurple; */
+    top: 11vw;
+    text-align: center;
+  }
+
+  .box-card {
+    top: 70px;
+  }
+
+  .titulo_card {
+    font-weight: 500;
+    font-size: 1.2vw !important;
+    margin: 0 0px 5px 0px !important;
+  }
+
+  .box_branco h1 {
+    height: 15vw;
+    margin-top: 40px;
+  }
+  .card_branco {
+    width: 70%;
+    background: white;
+    border-radius: 20px;
+    height: 6vw;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .card_branco img {
+    width: 3vw;
+    margin: 0px 2vw 0px 4vw;
+  }
+  .card_branco p {
+    color: var(--color-margenta);
+    font-weight: 300;
+    font-size: 2vw;
+  }
+}
 @media screen and (max-width: 400px) {
   #section2 {
     background: none;
@@ -407,11 +483,12 @@ p {
   }
   .conteudo {
     position: absolute;
-    top: 57vw;
+    top: -80vw;
     width: 100%;
     height: 67.8%;
     z-index: 2;
   }
+
   .box-descricao {
     padding: 0 15vw;
   }

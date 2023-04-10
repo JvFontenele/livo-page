@@ -38,30 +38,29 @@
       </div>
       <div>
         <div class="cards">
-          <img src="../../assets/secao7/Group-3.svg" alt="" />
-          <h1>+15 ferramentas</h1>
+          <img src="../../assets/secao7/Group-1.svg" alt="" />
+          <h1>Meio ambiente</h1>
           <p>
-            Personalize as ferramentas do App <br />
-            e regras de acordo com o que seu<br />
-            condomínio necessita.<br />
+            Reduzimos carbono diminuindo<br />
+            as filas de carros e papelada.
           </p>
         </div>
         <div class="cards">
-          <img src="../../assets/secao7/Group-3.svg" alt="" />
-          <h1>+15 ferramentas</h1>
+          <img src="../../assets/secao7/Group-2.svg" alt="" />
+          <h1>Plug and play</h1>
           <p>
-            Personalize as ferramentas do App <br />
-            e regras de acordo com o que seu<br />
-            condomínio necessita.<br />
+            Nosso time te ajuda na parte <br />
+            de cadastro e implantação
           </p>
         </div>
         <div class="cards">
-          <img src="../../assets/secao7/Group-3.svg" alt="" />
-          <h1>+15 ferramentas</h1>
+          <img src="../../assets/secao7/Group.svg" alt="" />
+          <h1>LGPD</h1>
           <p>
-            Personalize as ferramentas do App <br />
-            e regras de acordo com o que seu<br />
-            condomínio necessita.<br />
+            Seguimos o padrão LGPD (dados <br />
+            criptografados, protegidos e com<br />
+            apenas a finalidade para acesso<br />
+            ao app)
           </p>
         </div>
       </div>
@@ -78,7 +77,7 @@ import LogoSNome from "../icons/LogoSNome.vue";
   background: none;
   margin: 0;
   padding: 0;
-  margin-top: -8px;
+  margin-top: -0.88vw;
 }
 
 .background {
@@ -91,10 +90,10 @@ import LogoSNome from "../icons/LogoSNome.vue";
   position: absolute;
   top: 7vw;
   width: 100%;
-  height: 67.8%;
+  height: 68.8%;
   z-index: 2;
   display: flex;
-  padding: 7.2vw;
+  padding: 11vw;
   align-items: center;
 }
 
@@ -111,11 +110,11 @@ import LogoSNome from "../icons/LogoSNome.vue";
   margin-right: 6vw;
 }
 .cards {
-  width: 30vw;
-  margin-bottom: 20px;
+  width: 28vw;
+  margin-bottom: 2vw;
 }
 .cards img {
-  width: 3vw;
+  width: 2.5vw;
 }
 .cards h1 {
   font-size: 2.1vw;
