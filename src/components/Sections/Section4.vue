@@ -1,22 +1,70 @@
 <template>
   <section id="section2">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img class="background" src="../../assets/secao4/Group 2.png" alt="" />
+    <img class="background" src="../../assets/secao4/background.svg" alt="" />
 
-    <div class="conteudo"></div>
+    <div class="conteudo">
+      <div class="box1 card1">
+        <img src="../../assets/secao4/lista.svg" alt="" />
+        <div class="box1-texto">
+          <h2>Eventos e festas</h2>
+          <p>
+            Sem mais aquela lista no papel.<br />
+            Controle separado para festas<br />
+            e grandes eventos<br />
+          </p>
+        </div>
+      </div>
+      <div class="box1 card2">
+        <div class="box1-texto">
+          <h2>
+            Prestadores de serviço <br />
+            ou recorrentes
+          </h2>
+          <p>
+            Facilmente cadastre, acompanhe<br />
+            histórico ou faça bloqueio<br />
+            instantâneo no app<br />
+          </p>
+        </div>
+        <img src="../../assets/secao4/foto.svg" alt="" />
+      </div>
+      <div class="box1 card3">
+        <img src="../../assets/secao4/celulares.svg" alt="" />
+        <div class="box1-texto">
+          <h2>Check in e check out</h2>
+          <p>
+            Programe a entrada de uma visita<br />
+            e o último dia dela no local.
+          </p>
+        </div>
+      </div>
+      <div class="box1 card4">
+        <div class="box1-texto">
+          <h2>
+            Controle <br />
+            de encomendas
+          </h2>
+          <p>
+            Simples para quem opera no dia a dia <br />
+            a tarefa de registrar, comunicar<br />
+            e garantir a entrega para o proprietário.<br />
+          </p>
+        </div>
+        <img src="../../assets/secao4/cara.svg" alt="" />
+      </div>
+    </div>
   </section>
 </template>
 
-<script setup>
-import LogoSNome from "../icons/LogoSNome.vue";
-</script>
+<script setup></script>
 
 <style scoped>
 #section2 {
   background: none;
   margin: 0;
   padding: 0;
-  margin-top: -8px;
+  margin-top: -0.8vw;
 }
 
 .background {
@@ -27,124 +75,75 @@ import LogoSNome from "../icons/LogoSNome.vue";
 
 .conteudo {
   position: absolute;
-  top: 30vw;
+  top: 0;
   width: 100%;
   height: 67.8%;
   z-index: 2;
-}
-
-.boxConteudo {
-  width: 100%;
-  height: 100%;
+  /* background: rgba(255, 0, 0, 0.105); */
+  color: var(--color-gray);
   display: flex;
   flex-direction: column;
-  color: var(--color-gray);
-}
-
-h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 6vw;
-  font-weight: 600;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  height: 25vw;
+}
+.box1 {
+  margin-top: 4vw;
+  display: flex;
+  /* background: blue; */
+  align-items: center;
+}
+.box1 img {
+  width: 22vw;
+}
+.box1-texto {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+  width: 500px;
+  width: 35vw;
 }
 
-.logo {
-  width: 6vw;
-  display: block;
-  margin-right: 10px;
+.box1-texto h2 {
+  font-size: 2.8vw;
+  line-height: 1em;
+  font-weight: 500;
+  margin-bottom: 1vw;
 }
-
-h1 span::before {
-  content: " ";
-  display: inline-block;
-  font-weight: bolder;
-  height: 5vw;
-  top: 0.8vw;
-  margin: 0px 3vw;
-  width: 3px;
-  background: var(--color-gray);
-}
-
-.box-descricao {
-  padding: 0 20vw;
-}
-
-h2 {
-  font-size: 4vw;
-  line-height: 1.2em;
-}
-p {
-  margin: 25px 0;
+.box1-texto p {
   font-size: 2vw;
-  font-weight: 200;
-  padding: 0;
+  line-height: 1.2em;
+  font-weight: 100;
+}
+.card1 .box1-texto {
+  /* background: maroon; */
+  margin: 0px 4vw;
 }
 
-.btn-conteudo {
-  background: var(--color-gray);
-  color: var(--color-margenta-light);
-  display: flex;
-  align-items: center;
-  height: 4vw;
-  width: 45vw;
-  border-radius: 80px;
-  font-size: 2.5vw;
+.card2 {
+  left: 10vw;
 }
 
-.btn-conteudo span {
-  margin-left: 25px;
-  margin-right: 5px;
-  font-weight: 600;
+.card3 img {
+  right: 6vw;
+  width: 25vw;
+}
+
+.card4 {
+  top: -2vw;
+  align-items: end;
+}
+.card4 .box1-texto {
+  width: 42vw;
+}
+.card4 img {
+  width: 32vw;
+}
+.card4 h2 {
+  font-size: 5vw;
 }
 
 @media screen and (max-width: 600px) {
 }
 
 @media screen and (max-width: 400px) {
-  #section2 {
-    background: none;
-    margin: 0;
-    padding: 800px;
-    padding: 0;
-  }
-  .background {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    margin-top: 120px;
-    position: relative;
-  }
-  .conteudo {
-    position: absolute;
-    top: 57vw;
-    width: 100%;
-    height: 67.8%;
-    z-index: 2;
-  }
-  .box-descricao {
-    padding: 0 15vw;
-  }
-
-  h1 span::before {
-    width: 1px;
-  }
-  h1 {
-    margin-top: 15px;
-    height: 23vw;
-  }
-
-  h2 {
-    font-size: 5vw;
-    line-height: 1.2em;
-  }
-  p {
-    margin: 10px 0;
-    font-size: 2vw;
-    font-weight: 200;
-    padding: 0;
-  }
 }
 </style>
