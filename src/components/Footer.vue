@@ -42,7 +42,7 @@ import Logo from "./icons/Logo.vue";
 <style scoped>
 .footer {
   background: #1d1d1b;
-  height: 150px;
+  height: 25vw;
   display: flex;
   align-items: center;
   flex-direction: column;
