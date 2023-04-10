@@ -53,11 +53,31 @@
         </div>
         <img src="../../assets/secao4/cara.svg" alt="" />
       </div>
+
+      <div class="box1 card5">
+        <img src="../../assets/secao4/celular.png" alt="" />
+
+        <div class="celular">
+          <Loguinho class="loguinho"></Loguinho>
+          <h2>Ocorrências</h2>
+          <p>
+            Usuário livo se deparou com algo estranho, <br />
+            danificado ou quer sinalizar de forma<br />
+            organizada para o síndico?
+          </p>
+          <p class="bold">
+            Ocorrências é a ferramenta <br />
+            que faz acontecer.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import Loguinho from "../icons/Loguinho.vue";
+</script>
 
 <style scoped>
 #section2 {
@@ -139,6 +159,43 @@
 }
 .card4 h2 {
   font-size: 5vw;
+}
+
+.card5 {
+  display: flex;
+  align-items: center;
+  top: 2vw;
+}
+.card5 img {
+  width: 23vw;
+}
+
+.celular {
+  left: 7vw;
+  top: -2vw;
+}
+.celular h2 {
+  font-size: 5vw;
+  font-weight: 600;
+}
+
+.celular p {
+  font-size: 2vw;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.bold {
+  /* background: red; */
+  margin-top: 20px;
+  font-size: 2vw;
+  font-weight: 700 !important;
+  line-height: 1.2em;
+}
+
+.loguinho {
+  top: -7vw;
+  width: 5vw;
 }
 
 @media screen and (max-width: 600px) {
