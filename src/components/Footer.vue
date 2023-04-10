@@ -35,12 +35,14 @@
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+import Logo from "./icons/Logo.vue";
+</script>
 
 <style scoped>
 .footer {
   background: #1d1d1b;
-  height: 30vw;
+  height: 150px;
   display: flex;
   align-items: center;
   flex-direction: column;
