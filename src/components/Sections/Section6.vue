@@ -90,8 +90,6 @@
   line-height: 1.3em;
 }
 
-.texto {
-}
 .texto h2 {
   font-size: 2.5vw;
   font-weight: 600;
