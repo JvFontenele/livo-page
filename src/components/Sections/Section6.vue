@@ -3,13 +3,31 @@
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
     <img class="background" src="../../assets/secao6/background.png" alt="" />
 
-    <div class="conteudo"></div>
+    <div class="conteudo">
+      <div class="box">
+        <p class="nuvemTexto">
+          Acesso remoto <br />
+          sem necessidade<br />
+          de máquinas locais. <br />
+        </p>
+        <div class="nuvem">
+          <h1>Cloud</h1>
+          <img src="../../assets/secao6/nuvem.svg" alt="" />
+        </div>
+        <div class="texto">
+          <h2>Otimização de custos</h2>
+          <p>
+            + velocidade e segurança<br />
+            para seu condomínio
+          </p>
+        </div>
+      </div>
+      <img class="boxImagem" src="../../assets/secao6/boneco.svg" alt="" />
+    </div>
   </section>
 </template>
 
-<script setup>
-import LogoSNome from "../icons/LogoSNome.vue";
-</script>
+<script setup></script>
 
 <style scoped>
 #section2 {
@@ -27,124 +45,59 @@ import LogoSNome from "../icons/LogoSNome.vue";
 
 .conteudo {
   position: absolute;
-  top: 30vw;
+  top: 0vw;
   width: 100%;
-  height: 67.8%;
+  height: 97%;
   z-index: 2;
-}
-
-.boxConteudo {
-  width: 100%;
-  height: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: var(--color-gray);
 }
 
-h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 6vw;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 25vw;
+.box {
+  top: -20px;
 }
 
-.logo {
-  width: 6vw;
-  display: block;
-  margin-right: 10px;
-}
-
-h1 span::before {
-  content: " ";
-  display: inline-block;
-  font-weight: bolder;
-  height: 5vw;
-  top: 0.8vw;
-  margin: 0px 3vw;
-  width: 3px;
-  background: var(--color-gray);
-}
-
-.box-descricao {
-  padding: 0 20vw;
-}
-
-h2 {
-  font-size: 4vw;
-  line-height: 1.2em;
-}
-p {
-  margin: 25px 0;
-  font-size: 2vw;
-  font-weight: 200;
+.boxImagem {
+  width: 32vw;
+  top: 1vw;
   padding: 0;
+  margin: 0;
 }
-
-.btn-conteudo {
-  background: var(--color-gray);
-  color: var(--color-margenta-light);
+.nuvem {
+  padding: 0;
+  margin: 0;
   display: flex;
-  align-items: center;
-  height: 4vw;
-  width: 45vw;
-  border-radius: 80px;
-  font-size: 2.5vw;
+}
+.nuvem img {
+  width: 22vw;
 }
 
-.btn-conteudo span {
-  margin-left: 25px;
-  margin-right: 5px;
+.nuvem h1 {
+  font-size: 5vw;
+  font-weight: 600;
+  margin-right: 1.5vw;
+}
+
+.nuvemTexto {
+  position: absolute;
+  top: 0.7vw;
+  left: 17vw;
+  z-index: 2;
+  font-weight: 200;
+  font-size: 1.5vw;
+  line-height: 1.3em;
+}
+
+.texto {
+}
+.texto h2 {
+  font-size: 2.5vw;
   font-weight: 600;
 }
-
-@media screen and (max-width: 600px) {
-}
-
-@media screen and (max-width: 400px) {
-  #section2 {
-    background: none;
-    margin: 0;
-    padding: 800px;
-    padding: 0;
-  }
-  .background {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    margin-top: 120px;
-    position: relative;
-  }
-  .conteudo {
-    position: absolute;
-    top: 57vw;
-    width: 100%;
-    height: 67.8%;
-    z-index: 2;
-  }
-  .box-descricao {
-    padding: 0 15vw;
-  }
-
-  h1 span::before {
-    width: 1px;
-  }
-  h1 {
-    margin-top: 15px;
-    height: 23vw;
-  }
-
-  h2 {
-    font-size: 5vw;
-    line-height: 1.2em;
-  }
-  p {
-    margin: 10px 0;
-    font-size: 2vw;
-    font-weight: 200;
-    padding: 0;
-  }
+.texto p {
+  font-size: 1.4vw;
+  font-weight: 200;
 }
 </style>
