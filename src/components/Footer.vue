@@ -9,8 +9,12 @@
       </div>
       <div class="redes">
         <h2>Baixe nosso APP</h2>
-        <img src="../assets/footer/Group-2.svg" alt="" />
-        <img src="../assets/footer/Group.svg" alt="" />
+        <img
+          src="../assets/footer/Group-2.svg"
+          alt=""
+          @click="links.googlePlay"
+        />
+        <img src="../assets/footer/Group.svg" alt="" @click="links.appStore" />
       </div>
       <div class="qrcode">
         <p>SCANEIE PARA FALAR CONOSCO</p>
@@ -20,7 +24,12 @@
           OS CONDOMÍNIOS
         </p>
         <h2>LIVO Comercial</h2>
-        <img class="whats" src="../assets/footer/Group9.svg" alt="" />
+        <img
+          class="whats"
+          src="../assets/footer/Group9.svg"
+          alt=""
+          @click="links.whats"
+        />
       </div>
     </div>
     <div class="booton">
@@ -37,6 +46,7 @@
 
 <script setup>
 import Logo from "./icons/Logo.vue";
+import { links } from "../links";
 </script>
 
 <style scoped>
@@ -80,6 +90,7 @@ p {
 .redes img {
   width: 20vw;
   margin-top: 8px;
+  cursor: pointer;
 }
 
 .qrcode {
@@ -94,6 +105,7 @@ p {
 
 .whats {
   width: 11vw !important;
+  cursor: pointer;
 }
 
 .booton {

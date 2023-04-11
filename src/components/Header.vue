@@ -3,10 +3,12 @@
     <Logo class="logo" />
     <div class="boxBtn">
       <ButtonsHeader
+        @click="links.whats"
         title="LIVO COMERCIAL"
         icon="/src/assets/secao1/whatsIcon.svg"
       />
       <ButtonsHeader
+        @click="links.web"
         title="LIVO WEB"
         icon="/src/assets/secao1/headersetinhaIcon.svg"
       />
@@ -17,6 +19,7 @@
 <script setup>
 import ButtonsHeader from "./buttons/ButtonsHeader.vue";
 import Logo from "./icons/Logo.vue";
+import { links } from "../links";
 </script>
 
 <style scoped>
