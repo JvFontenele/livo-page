@@ -545,10 +545,12 @@ p {
     margin-top: 0vw;
     top: 9vw;
   }
+
   .card {
     height: 30vw;
     width: 23vw;
     border-radius: 20px;
+    padding: 5px;
   }
 
   .card div {
@@ -558,8 +560,7 @@ p {
     font-family: "ArticulatCF";
     margin: 0;
     padding: 0;
-    font-size: 1.6vw;
-    width: 200px;
+    font-size: 1.2vw;
     font-weight: 700;
     line-height: 1.2em;
   }
@@ -569,7 +570,7 @@ p {
     margin-bottom: 5px !important;
   }
   .card p {
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     margin: 0;
     font-weight: 600;
   }
