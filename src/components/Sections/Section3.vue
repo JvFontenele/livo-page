@@ -537,28 +537,41 @@ p {
 }
 @media screen and (max-width: 400px) {
   .boxBtn {
-    top: 7vw;
+    top: 5vw;
   }
   .box-card {
     height: 22vw;
-    padding: 2vw;
+    padding: 0vw;
     margin-top: 0vw;
     top: 9vw;
   }
   .card {
-    background: rgba(202, 110, 237, 0.6);
-    height: 25vw;
-    width: 22vw;
+    height: 30vw;
+    width: 23vw;
     border-radius: 20px;
   }
 
   .card div {
     text-align: start;
   }
-  .card p {
-    font-size: 0.9vw;
+  .cardIcons p {
+    font-family: "ArticulatCF";
     margin: 0;
-    font-weight: 400;
+    padding: 0;
+    font-size: 1.6vw;
+    width: 200px;
+    font-weight: 700;
+    line-height: 1.2em;
+  }
+  .titulo_cardIcons {
+    font-weight: 400 !important;
+    font-size: 1.9vw !important;
+    margin-bottom: 5px !important;
+  }
+  .card p {
+    font-size: 1.6vw;
+    margin: 0;
+    font-weight: 600;
   }
   .card img {
     width: 5vw;
@@ -566,7 +579,7 @@ p {
   }
   .titulo_card {
     font-weight: 500;
-    font-size: 1.4vw !important;
+    font-size: 1.8vw !important;
     margin: 0 0px 2px 0px !important;
   }
 

@@ -166,5 +166,11 @@ p {
     font-weight: 200;
     padding: 0;
   }
+
+  .btn-conteudo span {
+    margin-left: 10px;
+    margin-right: 4px;
+    font-weight: 600;
+  }
 }
 </style>
