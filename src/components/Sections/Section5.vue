@@ -153,55 +153,31 @@ p {
   border-radius: 8px;
   margin-top: 2vw;
   font-weight: 400 !important;
-
   padding: 2px 10px;
 }
 
 @media screen and (max-width: 600px) {
+  #section2 {
+    margin-top: -1.9vw;
+  }
 }
 
-@media screen and (max-width: 400px) {
-  #section2 {
-    background: none;
-    margin: 0;
-    padding: 800px;
-    padding: 0;
+@media screen and (max-width: 450px) {
+  .card5 {
+    display: flex;
+    align-items: center;
+    top: -3vw;
+    left: 1vw;
   }
-  .background {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    margin-top: 120px;
-    position: relative;
+  .card4 {
+    top: -5vw;
+    margin-top: 0vw;
   }
-  .conteudo {
-    position: absolute;
-    top: 57vw;
-    width: 100%;
-    height: 67.8%;
-    z-index: 2;
-  }
-  .box-descricao {
-    padding: 0 15vw;
-  }
-
-  h1 span::before {
-    width: 1px;
-  }
-  h1 {
-    margin-top: 15px;
-    height: 23vw;
-  }
-
-  h2 {
-    font-size: 5vw;
-    line-height: 1.2em;
-  }
-  p {
-    margin: 10px 0;
-    font-size: 2vw;
-    font-weight: 200;
-    padding: 0;
+}
+@media screen and (max-width: 300px) {
+  .card4 {
+    top: -16vw;
+    margin-top: 0vw;
   }
 }
 </style>

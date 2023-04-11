@@ -122,7 +122,74 @@ import LogoSNome from "../icons/LogoSNome.vue";
 }
 .cards p {
   font-size: 1.2vw;
-
   color: #575591;
+}
+
+@media screen and (max-width: 600px) {
+  #section2 {
+    margin-top: -3vw;
+  }
+
+  .img {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  .img img {
+    width: 25vw;
+    margin-right: 5vw;
+  }
+  .cards {
+    width: 28vw;
+    margin-bottom: 0vw;
+  }
+  .cards img {
+    width: 2.5vw;
+  }
+  .cards h1 {
+    margin-top: -6px;
+    font-size: 2.5vw;
+    color: var(--color-gray);
+  }
+  .cards p {
+    font-size: 1.5vw;
+
+    color: #575591;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #section2 {
+    margin-top: -3vw;
+  }
+  .conteudo {
+    top: 5vw;
+  }
+
+  .img {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  .img img {
+    width: 25vw;
+    margin-right: 5vw;
+  }
+  .cards {
+    width: 28vw;
+    margin-bottom: 0.5vw;
+  }
+  .cards img {
+    width: 2.5vw;
+  }
+  .cards h1 {
+    margin-top: -7px;
+    font-size: 2.1vw;
+    color: var(--color-gray);
+  }
+  .cards p {
+    font-size: 1.4vw;
+    color: #575591;
+  }
 }
 </style>

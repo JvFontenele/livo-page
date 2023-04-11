@@ -108,4 +108,17 @@ p {
   margin-right: 10vw;
   width: 6vw;
 }
+
+@media screen and (max-width: 600px) {
+  .footer {
+    background: #1d1d1b;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw 60px;
+    margin: 0;
+    color: var(--color-gray);
+  }
+}
 </style>

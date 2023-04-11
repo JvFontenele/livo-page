@@ -80,6 +80,10 @@
   z-index: 1000;
 }
 
-.whats :hover {
+@media screen and (max-width: 600px) {
+  .whats {
+    width: 45px;
+    height: 45px;
+  }
 }
 </style>

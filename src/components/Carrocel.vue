@@ -57,8 +57,12 @@ const images = [
   max-width: 250px;
 }
 @media screen and (max-width: 400px) {
+  .carrocel {
+    height: 20vw;
+    max-height: 250px;
+  }
   .carrocel img {
-    width: 20vw;
+    width: 19vw;
     max-width: 250px;
   }
 }

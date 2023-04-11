@@ -208,7 +208,7 @@
 #section2 {
   background: none;
   margin: 0;
-  margin-top: -6px;
+  margin-top: -0.6vw;
   padding: 0;
 }
 
@@ -220,7 +220,7 @@
 
 .conteudo {
   position: absolute;
-  top: -40px;
+  top: -4vw;
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -388,8 +388,6 @@ p {
   font-size: 2vw;
 }
 
-@media screen and (max-width: 600px) {
-}
 @media screen and (max-width: 1200px) {
   #section2 {
     background: none;
@@ -467,49 +465,116 @@ p {
     font-size: 2vw;
   }
 }
+@media screen and (max-width: 600px) {
+  .boxIcones {
+    /* background: red; */
+    width: 100%;
+    height: 31vw;
+    padding: 0 7vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .cardIcons {
+    width: 120%;
+    left: 0vw;
+    display: flex;
+    margin-top: 6px;
+    height: 8vw;
+  }
+
+  .cardIcons img {
+    margin: 0;
+    padding: 0;
+    width: 4vw;
+    margin-right: 1.5vw;
+  }
+
+  .cardIcons p {
+    font-family: "ArticulatCF";
+    margin: 0;
+    padding: 0;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 1.3em;
+  }
+  .titulo_cardIcons {
+    margin-bottom: 0.5vw !important;
+  }
+  .boxBtn {
+    top: 3vw;
+    /* background: rebeccapurple; */
+    text-align: center;
+  }
+
+  .box-card {
+    height: 22vw;
+    padding: 2vw;
+    margin-top: 0vw;
+    top: 6vw;
+  }
+  .card {
+    background: rgba(202, 110, 237, 0.6);
+    height: 25vw;
+    width: 20vw;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .card div {
+    text-align: start;
+  }
+  .card p {
+    font-size: 0.9vw;
+    margin: 0;
+    font-weight: 400;
+  }
+  .titulo_card {
+    font-weight: 500;
+    font-size: 1.4vw !important;
+    margin: 0 0px 2px 0px !important;
+  }
+}
 @media screen and (max-width: 400px) {
-  #section2 {
-    background: none;
+  .boxBtn {
+    top: 7vw;
+  }
+  .box-card {
+    height: 22vw;
+    padding: 2vw;
+    margin-top: 0vw;
+    top: 9vw;
+  }
+  .card {
+    background: rgba(202, 110, 237, 0.6);
+    height: 25vw;
+    width: 22vw;
+    border-radius: 20px;
+  }
+
+  .card div {
+    text-align: start;
+  }
+  .card p {
+    font-size: 0.9vw;
     margin: 0;
-    padding: 800px;
-    padding: 0;
+    font-weight: 400;
   }
-  .background {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    margin-top: 120px;
-    position: relative;
+  .card img {
+    width: 5vw;
+    margin: 0.2vw 0 0.2vw 0;
   }
-  .conteudo {
-    position: absolute;
-    top: -80vw;
-    width: 100%;
-    height: 67.8%;
-    z-index: 2;
+  .titulo_card {
+    font-weight: 500;
+    font-size: 1.4vw !important;
+    margin: 0 0px 2px 0px !important;
   }
 
-  .box-descricao {
-    padding: 0 15vw;
+  .box_branco h1 {
+    margin-top: 30px;
   }
-
-  h1 span::before {
-    width: 1px;
-  }
-  h1 {
-    margin-top: 15px;
-    height: 23vw;
-  }
-
-  h2 {
-    font-size: 5vw;
-    line-height: 1.2em;
-  }
-  p {
-    margin: 10px 0;
-    font-size: 2vw;
-    font-weight: 200;
-    padding: 0;
+  .card_branco {
+    margin-bottom: 3vw;
   }
 }
 </style>
