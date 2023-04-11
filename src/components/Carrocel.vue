@@ -48,10 +48,18 @@ const images = [
 .carrocel {
   background: white;
   width: 100%;
-  height: 250px;
+  height: 25vw;
+  max-height: 250px;
   top: -7px;
 }
 .carrocel img {
-  width: 250px;
+  width: 25vw;
+  max-width: 250px;
+}
+@media screen and (max-width: 400px) {
+  .carrocel img {
+    width: 20vw;
+    max-width: 250px;
+  }
 }
 </style>
