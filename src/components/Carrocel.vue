@@ -7,7 +7,7 @@
     wrapAround
   >
     <slide v-for="image in images" :key="image.id">
-      <img :src="image.src" alt="" />
+      <img :src="image.src" alt="Aplicativo para gestão de condomínio" />
     </slide>
 
     <template #addons> </template>

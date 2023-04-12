@@ -11,14 +11,14 @@
         <h2>Baixe nosso APP</h2>
         <img
           src="../assets/footer/Group-2.svg"
-          alt=""
+          alt="Condomínio conectado"
           @click="links.googlePlay"
         />
         <img src="../assets/footer/Group.svg" alt="" @click="links.appStore" />
       </div>
       <div class="qrcode">
         <p>SCANEIE PARA FALAR CONOSCO</p>
-        <img src="../assets/footer/Group-4.svg" alt="" />
+        <img src="../assets/footer/Group-4.svg" alt="Condomínio conectado" />
         <p>
           FEITO COM AMOR PARA TODOS <br />
           OS CONDOMÍNIOS
@@ -27,13 +27,13 @@
         <img
           class="whats"
           src="../assets/footer/Group9.svg"
-          alt=""
+          alt="Condomínio conectado"
           @click="links.whats"
         />
       </div>
     </div>
     <div class="booton">
-      <img src="../assets/footer/Group-3.svg" alt="" />
+      <img src="../assets/footer/Group-3.svg" alt="Condomínio conectado" />
 
       <p>
         Al. Rio Negro, 1084 - Alphaville Industrial, Barueri - SP, 06453-051

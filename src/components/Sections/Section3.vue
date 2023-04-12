@@ -1,14 +1,21 @@
 <template>
   <section id="section2">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img class="background" src="../../assets/secao3/background.svg" alt="" />
+    <img
+      class="background"
+      src="../../assets/secao3/background.svg"
+      alt="Aplicativo para gestão de condomínio"
+    />
 
     <div class="conteudo">
       <div class="boxConteudo">
         <h1>Ferramentas LIVO</h1>
         <div class="boxIcones">
           <div class="cardIcons">
-            <img src="../../assets/secao3/checklist.svg" alt="" />
+            <img
+              src="../../assets/secao3/checklist.svg"
+              alt="App para moradores "
+            />
             <div>
               <p class="titulo_cardIcons">Entregas</p>
               <p>
@@ -18,7 +25,10 @@
             </div>
           </div>
           <div class="cardIcons">
-            <img src="../../assets/secao3/vinho.svg" alt="" />
+            <img
+              src="../../assets/secao3/vinho.svg"
+              alt="Controle de encomendas"
+            />
             <div>
               <p class="titulo_cardIcons">Reservas</p>
               <p>
@@ -28,7 +38,10 @@
             </div>
           </div>
           <div class="cardIcons">
-            <img src="../../assets/secao3/carregar.svg" alt="" />
+            <img
+              src="../../assets/secao3/carregar.svg"
+              alt="Aplicativo para condomínio"
+            />
             <div>
               <p class="titulo_cardIcons">Recorrente</p>
               <p>
@@ -38,7 +51,10 @@
             </div>
           </div>
           <div class="cardIcons">
-            <img src="../../assets/secao3/moto.svg" alt="" />
+            <img
+              src="../../assets/secao3/moto.svg"
+              alt="gestão de correspondência"
+            />
             <div>
               <p class="titulo_cardIcons">Delivery</p>
               <p>
@@ -48,7 +64,10 @@
             </div>
           </div>
           <div class="cardIcons">
-            <img src="../../assets/secao3/qrcode.svg" alt="" />
+            <img
+              src="../../assets/secao3/qrcode.svg"
+              alt="gestão de encomendas"
+            />
             <div>
               <p class="titulo_cardIcons">QR Code/ FACIAL</p>
               <p>
@@ -58,7 +77,10 @@
             </div>
           </div>
           <div class="cardIcons">
-            <img src="../../assets/secao3/jornal.svg" alt="" />
+            <img
+              src="../../assets/secao3/jornal.svg"
+              alt="Aplicativo para gestão de condomínio"
+            />
             <div>
               <p class="titulo_cardIcons">Mural</p>
               <p>
@@ -68,7 +90,10 @@
             </div>
           </div>
           <div class="cardIcons">
-            <img src="../../assets/secao3/calendario.svg" alt="" />
+            <img
+              src="../../assets/secao3/calendario.svg"
+              alt="controle de acesso"
+            />
             <div>
               <p class="titulo_cardIcons">Eventos</p>
               <p>
@@ -78,14 +103,17 @@
             </div>
           </div>
           <div class="cardIcons">
-            <img src="../../assets/secao3/patinha.svg" alt="" />
+            <img
+              src="../../assets/secao3/patinha.svg"
+              alt="gestão de condominio"
+            />
             <div>
               <p class="titulo_cardIcons">PET</p>
               <p>Seu pet com cadastro.</p>
             </div>
           </div>
           <div class="cardIcons">
-            <img src="../../assets/secao3/placa.svg" alt="" />
+            <img src="../../assets/secao3/placa.svg" alt="controle de acesso" />
             <div>
               <p class="titulo_cardIcons">Ocorrências e Enquetes</p>
               <p>
@@ -102,12 +130,15 @@
           <img
             class="botao"
             src="../../assets/secao3/botaoparabaixo.svg"
-            alt=""
+            alt="Condomínio conectado"
           />
         </div>
         <div class="box-card">
           <div class="card">
-            <img src="../../assets/secao3/celular.svg" alt="" />
+            <img
+              src="../../assets/secao3/celular.svg"
+              alt="Condomínio conectado"
+            />
             <div>
               <p class="titulo_card">App do proprietário</p>
               <p>
@@ -119,7 +150,10 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/secao3/celular1.svg" alt="" />
+            <img
+              src="../../assets/secao3/celular1.svg"
+              alt="Condomínio conectado"
+            />
             <div>
               <p class="titulo_card">Visitante e prestador</p>
               <p>
@@ -129,7 +163,10 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/secao3/globo.svg" alt="" />
+            <img
+              src="../../assets/secao3/globo.svg"
+              alt="Aplicativo para condomínio"
+            />
             <div>
               <p class="titulo_card">LIVO web</p>
               <p>
@@ -141,7 +178,10 @@
             </div>
           </div>
           <div class="card">
-            <img src="../../assets/secao3/relatorio.svg" alt="" />
+            <img
+              src="../../assets/secao3/relatorio.svg"
+              alt="Aplicativo para condomínio"
+            />
             <div>
               <p class="titulo_card">LIVO relatórios</p>
               <p>
@@ -156,29 +196,44 @@
         <div class="box_branco">
           <h1>Controle de acesso</h1>
           <div class="card_branco">
-            <img src="../../assets/secao3/branco/Group-1.svg" alt="" />
+            <img
+              src="../../assets/secao3/branco/Group-1.svg"
+              alt="Aplicativo para gestão de condomínio"
+            />
             <p class="titulo_branco">Liberação antecipada com QR CODE</p>
           </div>
           <div class="card_branco">
-            <img src="../../assets/secao3/branco/Group.svg" alt="" />
+            <img
+              src="../../assets/secao3/branco/Group.svg"
+              alt="Aplicativo para gestão de condomínio"
+            />
             <p class="titulo_branco">
               Não deixe sua visita esperando, elimine filas.
             </p>
           </div>
           <div class="card_branco">
-            <img src="../../assets/secao3/branco/Group-2.svg" alt="" />
+            <img
+              src="../../assets/secao3/branco/Group-2.svg"
+              alt="controle de acesso"
+            />
             <p class="titulo_branco">
               Tenha controle de acesso de entrada e saída do condomínio.
             </p>
           </div>
           <div class="card_branco">
-            <img src="../../assets/secao3/branco/Group-3.svg" alt="" />
+            <img
+              src="../../assets/secao3/branco/Group-3.svg"
+              alt="Condomínio conectado"
+            />
             <p class="titulo_branco">
               Tudo isso com maior segurança e agilidade.
             </p>
           </div>
           <div class="card_branco">
-            <img src="../../assets/secao3/branco/Vector.svg" alt="" />
+            <img
+              src="../../assets/secao3/branco/Vector.svg"
+              alt="Condomínio conectado"
+            />
             <p class="titulo_branco">
               Todos os convites podem ser bloqueados antes de qualquer visita.
             </p>

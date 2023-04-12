@@ -1,7 +1,11 @@
 <template>
   <section id="section2">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img class="background" src="../../assets/secao6/background.png" alt="" />
+    <img
+      class="background"
+      src="../../assets/secao6/background.png"
+      alt="Condomínio conectado"
+    />
 
     <div class="conteudo">
       <div class="box">
@@ -12,7 +16,10 @@
         </p>
         <div class="nuvem">
           <h1>Cloud</h1>
-          <img src="../../assets/secao6/nuvem.svg" alt="" />
+          <img
+            src="../../assets/secao6/nuvem.svg"
+            alt="Aplicativo para gestão de condomínio"
+          />
         </div>
         <div class="texto">
           <h2>Otimização de custos</h2>
@@ -22,7 +29,11 @@
           </p>
         </div>
       </div>
-      <img class="boxImagem" src="../../assets/secao6/boneco.svg" alt="" />
+      <img
+        class="boxImagem"
+        src="../../assets/secao6/boneco.svg"
+        alt="Controle de encomendas"
+      />
     </div>
   </section>
 </template>

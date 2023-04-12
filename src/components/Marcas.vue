@@ -1,9 +1,9 @@
 <template>
   <div class="carrocel">
-    <img src="../assets/marcas/marca1.png" alt="" />
-    <img src="../assets/marcas/marca2.png" alt="" />
-    <img src="../assets/marcas/marca3.png" alt="" />
-    <img src="../assets/marcas/marca4.png" alt="" />
+    <img src="../assets/marcas/marca1.png" alt="App para moradores" />
+    <img src="../assets/marcas/marca2.png" alt="App para moradores" />
+    <img src="../assets/marcas/marca3.png" alt="App para moradores" />
+    <img src="../assets/marcas/marca4.png" alt="App para moradores" />
   </div>
 </template>
 

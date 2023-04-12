@@ -1,11 +1,19 @@
 <template>
   <section id="section2">
-    <img class="background" src="../../assets/secao7/background.png" alt="" />
+    <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
+    <img
+      class="background"
+      src="../../assets/secao7/background.png"
+      alt="Gestão de correspondência"
+    />
 
     <div class="conteudo">
       <div>
         <div class="cards">
-          <img src="../../assets/secao7/Group-3.svg" alt="" />
+          <img
+            src="../../assets/secao7/Group-3.svg"
+            alt="Condomínio conectado"
+          />
           <h1>+15 ferramentas</h1>
           <p>
             Personalize as ferramentas do App <br />
@@ -14,7 +22,10 @@
           </p>
         </div>
         <div class="cards">
-          <img src="../../assets/secao7/Group-5.svg" alt="" />
+          <img
+            src="../../assets/secao7/Group-5.svg"
+            alt="Controle de acesso "
+          />
           <h1>Integração</h1>
           <p>
             Integramos com os principais <br />
@@ -22,7 +33,7 @@
           </p>
         </div>
         <div class="cards">
-          <img src="../../assets/secao7/Group-5.svg" alt="" />
+          <img src="../../assets/secao7/" alt="Gestão de condominio" />
           <h1>Dashboard</h1>
           <p>
             Nosso painel de controle te mostra tudo<br />
@@ -33,11 +44,18 @@
       </div>
 
       <div class="img">
-        <img class="" src="../../assets/secao7/Group-4.svg" alt="" />
+        <img
+          class=""
+          src="../../assets/secao7/Group-4.svg"
+          alt="App para moradores"
+        />
       </div>
       <div>
         <div class="cards">
-          <img src="../../assets/secao7/Group-1.svg" alt="" />
+          <img
+            src="../../assets/secao7/Group-1.svg"
+            alt="Aplicativo para gestão de condomínio e comunicação entre moradores"
+          />
           <h1>Meio ambiente</h1>
           <p>
             Reduzimos carbono diminuindo<br />
@@ -45,7 +63,10 @@
           </p>
         </div>
         <div class="cards">
-          <img src="../../assets/secao7/Group-2.svg" alt="" />
+          <img
+            src="../../assets/secao7/Group-2.svg"
+            alt="Gestão de correspondência em condomínio através de aplicativo"
+          />
           <h1>Plug and play</h1>
           <p>
             Nosso time te ajuda na parte <br />
@@ -53,7 +74,7 @@
           </p>
         </div>
         <div class="cards">
-          <img src="../../assets/secao7/Group.svg" alt="" />
+          <img src="../../assets/secao7/Group.svg" alt="Livo LGPD" />
           <h1>LGPD</h1>
           <p>
             Seguimos o padrão LGPD (dados <br />
@@ -68,7 +89,7 @@
 </template>
 
 <script setup>
-
+import LogoSNome from "../icons/LogoSNome.vue";
 </script>
 
 <style scoped>
@@ -120,7 +141,7 @@
   color: var(--color-gray);
 }
 .cards p {
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   color: #575591;
 }
 

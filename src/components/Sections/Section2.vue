@@ -4,7 +4,7 @@
     <img
       class="background"
       src="../../assets/secao2/background-foquete.svg"
-      alt=""
+      alt="Aplicativo para condomínio"
     />
 
     <div class="conteudo">

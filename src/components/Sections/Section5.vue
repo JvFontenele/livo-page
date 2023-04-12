@@ -5,7 +5,10 @@
 
     <div class="conteudo">
       <div class="box1 card5">
-        <img src="../../assets/secao5/celular1.png" alt="" />
+        <img
+          src="../../assets/secao5/celular1.png"
+          alt="Controle de acesso em condomínio"
+        />
 
         <div class="celular card1">
           <h2>Mural</h2>
@@ -25,7 +28,10 @@
         </div>
       </div>
       <div class="box1 card5 card4">
-        <img src="../../assets/secao5/celular2.png" alt="" />
+        <img
+          src="../../assets/secao5/celular2.png"
+          alt="Gestão eficiente de condomínio através de aplicativo"
+        />
 
         <div class="celular card2">
           <h2>Notificações</h2>

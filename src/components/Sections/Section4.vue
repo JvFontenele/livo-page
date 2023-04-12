@@ -5,7 +5,7 @@
 
     <div class="conteudo">
       <div class="box1 card1">
-        <img src="../../assets/secao4/lista.svg" alt="" />
+        <img src="../../assets/secao4/lista.svg" alt="Controle de acesso" />
         <div class="box1-texto">
           <h2>Eventos e festas</h2>
           <p>
@@ -27,10 +27,16 @@
             instantâneo no app<br />
           </p>
         </div>
-        <img src="../../assets/secao4/foto.svg" alt="" />
+        <img
+          src="../../assets/secao4/foto.svg"
+          alt="Gestão de encomendas em condomínio através de aplicativo"
+        />
       </div>
       <div class="box1 card3">
-        <img src="../../assets/secao4/celulares.svg" alt="" />
+        <img
+          src="../../assets/secao4/celulares.svg"
+          alt="Gestão de correspondência em condomínio através de aplicativo"
+        />
         <div class="box1-texto">
           <h2>Check in e check out</h2>
           <p>
@@ -51,11 +57,17 @@
             e garantir a entrega para o proprietário.<br />
           </p>
         </div>
-        <img src="../../assets/secao4/cara.svg" alt="" />
+        <img
+          src="../../assets/secao4/cara.svg"
+          alt="Aplicativo para gestão de condomínio e comunicação entre moradores"
+        />
       </div>
 
       <div class="box1 card5">
-        <img src="../../assets/secao4/celular.png" alt="" />
+        <img
+          src="../../assets/secao4/celular.png"
+          alt="Controle de encomendas em condomínio através de aplicativo"
+        />
 
         <div class="celular">
           <Loguinho class="loguinho"></Loguinho>
