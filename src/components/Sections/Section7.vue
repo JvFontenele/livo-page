@@ -33,7 +33,10 @@
           </p>
         </div>
         <div class="cards">
-          <img src="../../assets/secao7/" alt="Gestão de condominio" />
+          <img
+            src="../../assets/secao7/Group-5.svg"
+            alt="Gestão de condominio"
+          />
           <h1>Dashboard</h1>
           <p>
             Nosso painel de controle te mostra tudo<br />
