@@ -333,6 +333,7 @@ p {
   margin: 0;
   padding: 0;
   width: 65px;
+  height: 65px;
   margin-right: 25px;
 }
 
@@ -412,6 +413,7 @@ p {
 }
 .card img {
   width: 6vw;
+  height: 7vw;
   margin: 1vw 0 0.2vw 0;
 }
 
@@ -639,6 +641,7 @@ p {
   }
   .card img {
     width: 5vw;
+    height: 5vw;
     margin: 0.2vw 0 0.2vw 0;
   }
   .titulo_card {
