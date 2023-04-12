@@ -401,7 +401,7 @@ p {
   text-align: start;
 }
 .card p {
-  font-size: 0.7vw;
+  font-size: 0.89vw;
   margin: 0;
   font-weight: 400;
 }
@@ -519,6 +519,14 @@ p {
     font-weight: 300;
     font-size: 2vw;
   }
+}
+
+@media screen and (max-width: 1150px) {
+  .card p {
+  font-size: 0.7vw;
+  margin: 0;
+  font-weight: 400;
+}
 }
 @media screen and (max-width: 600px) {
   .boxIcones {
