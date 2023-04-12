@@ -27,7 +27,6 @@ import Section6 from "../components/Sections/Section6.vue";
 import Section7 from "../components/Sections/Section7.vue";
 import Marcas from "../components/Marcas.vue";
 import Carrocel from "../components/Carrocel.vue";
-import Whats from "../components/Whats.vue";
 </script>
 
 <style scoped>

@@ -1,6 +1,5 @@
 <template>
   <section id="section2">
-    <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
     <img class="background" src="../../assets/secao7/background.png" alt="" />
 
     <div class="conteudo">
@@ -23,7 +22,7 @@
           </p>
         </div>
         <div class="cards">
-          <img src="../../assets/secao7/" alt="" />
+          <img src="../../assets/secao7/Group-5.svg" alt="" />
           <h1>Dashboard</h1>
           <p>
             Nosso painel de controle te mostra tudo<br />
@@ -69,7 +68,7 @@
 </template>
 
 <script setup>
-import LogoSNome from "../icons/LogoSNome.vue";
+
 </script>
 
 <style scoped>
