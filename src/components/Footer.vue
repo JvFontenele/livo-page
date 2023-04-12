@@ -121,7 +121,7 @@ p {
   width: 6vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .footer {
     background: #1d1d1b;
     height: 30vw;
@@ -131,6 +131,17 @@ p {
     padding: 2vw 60px;
     margin: 0;
     color: var(--color-gray);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .footer {
+
+    height: 40vw;
+
+    padding: 2vw 60px;
+
+
   }
 }
 </style>
