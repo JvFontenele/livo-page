@@ -28,7 +28,7 @@
           class="whats"
           src="../assets/footer/Group9.svg"
           alt="Condomínio conectado"
-          @click="links.whats"
+          @click="links.whatsSuport"
         />
       </div>
     </div>
