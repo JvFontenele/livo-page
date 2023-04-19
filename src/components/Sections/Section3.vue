@@ -143,9 +143,8 @@
               <p class="titulo_card">App do proprietário</p>
               <p>
                 Residencial e comercial. <br />
-                Livo é intuitivo e simples de usar, igual <br />
-                pedir comida no ifood ou mandar um <br />
-                arquivo pelo WhatsApp. <br />
+                Livo é intuitivo e simples de usar, igual pedir comida no ifood
+                ou mandar um arquivo pelo WhatsApp. <br />
               </p>
             </div>
           </div>
@@ -180,7 +179,7 @@
           <div class="card">
             <img
               src="../../assets/secao3/relatorio.svg"
-              alt="Aplicativo para condomínio"
+              alt="Aplicativo para condomínio"
             />
             <div>
               <p class="titulo_card">LIVO relatórios</p>
@@ -402,7 +401,7 @@ p {
   text-align: start;
 }
 .card p {
-  font-size: 0.95vw;
+  font-size: 1vw;
   margin: 0;
   font-weight: 400;
 }

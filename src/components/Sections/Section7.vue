@@ -144,13 +144,20 @@ import LogoSNome from "../icons/LogoSNome.vue";
   color: var(--color-gray);
 }
 .cards p {
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   color: #575591;
 }
 
 @media screen and (max-width: 600px) {
   #section2 {
     margin-top: -3vw;
+  }
+
+  @media screen and (max-width: 600px) {
+    .cards p {
+      font-size: 1.7vw;
+      color: #575591;
+    }
   }
 
   .img {
