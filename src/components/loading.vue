@@ -4,12 +4,12 @@ const foguete = ref(true);
 function desligarLoading() {
   foguete.value = false;
 }
-setInterval(desligarLoading, 3000);
+setInterval(desligarLoading, 6000);
 const fundo = ref(true);
 function limparLoading() {
   fundo.value = false;
 }
-setInterval(limparLoading, 5500);
+setInterval(limparLoading, 8500);
 
 
 </script>
