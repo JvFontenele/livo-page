@@ -1,11 +1,13 @@
 <template>
+  <Loading ></Loading>
   <RouterView />
   <Whats />
 </template>
 
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
 import Whats from "./components/Whats.vue";
+import Loading from "./components/loading.vue";
+
 </script>
 
 <style>
@@ -17,4 +19,6 @@ h2 {
 p {
   font-family: "ArticulatCF";
 }
+
+
 </style>

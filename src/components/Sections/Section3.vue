@@ -550,6 +550,7 @@ p {
     margin: 0;
     padding: 0;
     width: 4vw;
+    top: -5vw;
     margin-right: 1.5vw;
   }
 
