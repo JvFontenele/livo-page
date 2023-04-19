@@ -108,9 +108,9 @@ p {
   display: flex;
   align-items: center;
   height: 4vw;
-  width: 45vw;
+  width: 47vw;
   border-radius: 80px;
-  font-size: 2.4vw;
+  font-size: 2.3vw;
   font-weight: 300;
 }
 

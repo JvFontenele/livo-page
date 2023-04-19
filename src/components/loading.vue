@@ -1246,7 +1246,7 @@ setInterval(limparLoading, 5500);
     transform: translate(0px, 0%);
   }
   to {
-    transform: translate(0px, 50vw);
+    transform: translate(0px, 150vw);
   }
 }
 
@@ -1256,7 +1256,7 @@ setInterval(limparLoading, 5500);
     animation: movement 0.7s linear infinite;
     z-index: -1;
     position: absolute;
-    top: -70vw;
+    top: -50vw;
   }
 
   @keyframes movement {
@@ -1282,7 +1282,7 @@ setInterval(limparLoading, 5500);
   width: 150px;
   height: 150px;
   position: relative;
-  left: 30px;
+  left: 0px;
   top: -80px;
   z-index: 10px;
 }
@@ -1291,7 +1291,7 @@ setInterval(limparLoading, 5500);
   content: "";
   position: absolute;
   bottom: -98px;
-  left: 70%;
+  left: 50.5%;
   transform: translateX(-50%);
   width: 15px;
   height: 200px;
