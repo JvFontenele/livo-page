@@ -1207,7 +1207,7 @@ setInterval(limparLoading, 8500);
       </g>
     </svg>
     <section class="rocket">
-      <img cal src="../assets/loading/foquete2.png" alt="Foguete." />
+      <img cal src="../assets/loading/foguete.svg" alt="Foguete." />
     </section>
   </div>
 </template>
@@ -1279,8 +1279,8 @@ setInterval(limparLoading, 8500);
 }
 
 .rocket img {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   position: relative;
   left: 0px;
   top: -80px;
@@ -1290,8 +1290,8 @@ setInterval(limparLoading, 8500);
 .rocket::before {
   content: "";
   position: absolute;
-  bottom: -98px;
-  left: 50.5%;
+  bottom: -85px;
+  left: 50%;
   transform: translateX(-50%);
   width: 15px;
   height: 200px;

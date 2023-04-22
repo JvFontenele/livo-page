@@ -623,6 +623,7 @@ p {
     text-align: start;
   }
   .cardIcons p {
+    max-width: 99.5%;
     font-family: "ArticulatCF";
     margin: 0;
     padding: 0;
