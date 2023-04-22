@@ -212,7 +212,7 @@ import Loguinho from "../icons/Loguinho.vue";
 
 @media screen and (max-width: 600px) {
   #section2 {
-    margin-top: -1.9vw;
+    margin-top: -2vw;
   }
 }
 

@@ -16,8 +16,7 @@
           />
           <h1>+15 ferramentas</h1>
           <p>
-            Personalize as ferramentas do App <br />
-            e regras de acordo com o que seu<br />
+            Personalize as ferramentas do App e regras de acordo com o que seu
             condomínio necessita.<br />
           </p>
         </div>
@@ -39,9 +38,8 @@
           />
           <h1>Dashboard</h1>
           <p>
-            Nosso painel de controle te mostra tudo<br />
-            que você precisa, para o sindico e sua equipe<br />
-            acompanhar seu condomínio<br />
+            Nosso painel de controle te mostra tudo que você precisa, para o
+            sindico e sua equipe acompanhar seu condomínio<br />
           </p>
         </div>
       </div>
@@ -158,6 +156,11 @@ import LogoSNome from "../icons/LogoSNome.vue";
       font-size: 1.7vw;
       color: #575591;
     }
+    .background {
+      margin: 0;
+      padding: 0;
+      width: 140%;
+    }
   }
 
   .img {
@@ -178,11 +181,11 @@ import LogoSNome from "../icons/LogoSNome.vue";
   }
   .cards h1 {
     margin-top: -6px;
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: var(--color-gray);
   }
   .cards p {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 
     color: #575591;
   }
@@ -191,6 +194,11 @@ import LogoSNome from "../icons/LogoSNome.vue";
 @media screen and (max-width: 400px) {
   #section2 {
     margin-top: -3vw;
+  }
+  .background {
+    margin: 0;
+    padding: 0;
+    width: 150%;
   }
   .conteudo {
     top: 5vw;
@@ -214,11 +222,11 @@ import LogoSNome from "../icons/LogoSNome.vue";
   }
   .cards h1 {
     margin-top: -7px;
-    font-size: 2.1vw;
+    font-size: 2.8vw;
     color: var(--color-gray);
   }
   .cards p {
-    font-size: 1.4vw;
+    font-size: 1.8vw;
     color: #575591;
   }
 }

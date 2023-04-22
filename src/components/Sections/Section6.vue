@@ -109,4 +109,28 @@
   font-size: 1.4vw;
   font-weight: 200;
 }
+
+@media screen and (max-width: 600px) {
+  .texto p {
+    font-size: 2vw;
+    font-weight: 200;
+  }
+  .texto h2 {
+    font-size: 3vw;
+    font-weight: 600;
+  }
+
+  .nuvemTexto {
+    position: absolute;
+    top: 0.7vw;
+    left: 18vw;
+    z-index: 2;
+    font-weight: 200;
+    font-size: 1.8vw;
+    line-height: 1.3em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+}
 </style>

@@ -5,7 +5,15 @@
         <h2>Transparência</h2>
         <p>POLÍTICA DE PRIVACIDADE</p>
         <p>POLÍTICA DE SEGURANÇA</p>
-        <p>LGPD</p>
+
+        <p>
+          <a
+            href="https://www.livoapp.com.br/lgpd.php"
+            style="color: #fff; text-decoration: none"
+            target="_blank"
+            >LGPD</a
+          >
+        </p>
       </div>
       <div class="redes">
         <h2>Baixe nosso APP</h2>
@@ -17,7 +25,7 @@
         <img src="../assets/footer/Group.svg" alt="" @click="links.appStore" />
       </div>
       <div class="qrcode">
-        <p>SCANEIE PARA FALAR CONOSCO</p>
+        <p>ESCANEIE PARA FALAR CONOSCO</p>
         <img src="../assets/footer/Group-4.svg" alt="Condomínio conectado" />
         <p>
           FEITO COM AMOR PARA TODOS <br />
@@ -132,16 +140,19 @@ p {
     margin: 0;
     color: var(--color-gray);
   }
+  .text p {
+    font-size: 5px;
+  }
+  .qrcode P {
+    font-size: 5px;
+  }
 }
 
 @media screen and (max-width: 300px) {
   .footer {
-
     height: 40vw;
 
     padding: 2vw 60px;
-
-
   }
 }
 </style>

@@ -19,8 +19,8 @@
             <div>
               <p class="titulo_cardIcons">Entregas</p>
               <p>
-                Acompanhe cada encomenda que chega. <br />
-                Para retirar, use assinatura digital via app.
+                Acompanhe cada encomenda que chega. Para retirar, use assinatura
+                digital via app.
               </p>
             </div>
           </div>
@@ -32,8 +32,7 @@
             <div>
               <p class="titulo_cardIcons">Reservas</p>
               <p>
-                É muito facíl reservar um espaço<br />
-                com LIVO, basta dois cliques.
+                É muito facíl reservar um espaço com LIVO, basta dois cliques.
               </p>
             </div>
           </div>
@@ -45,8 +44,8 @@
             <div>
               <p class="titulo_cardIcons">Recorrente</p>
               <p>
-                Convites liberados para visita recorrente. <br />
-                Você escolhe o dia e a hora.
+                Convites liberados para visita recorrente. Você escolhe o dia e
+                a hora.
               </p>
             </div>
           </div>
@@ -58,8 +57,8 @@
             <div>
               <p class="titulo_cardIcons">Delivery</p>
               <p>
-                Adiante sua portaria avisando que você <br />
-                aguarda delivery ou algum motorista.
+                Adiante sua portaria avisando que você aguarda delivery ou algum
+                motorista.
               </p>
             </div>
           </div>
@@ -71,8 +70,7 @@
             <div>
               <p class="titulo_cardIcons">QR Code/ FACIAL</p>
               <p>
-                Libera a entra e saída de visitas <br />e prestadores de
-                serviços.
+                Libera a entra e saída de visitas e prestadores de serviços.
               </p>
             </div>
           </div>
@@ -84,8 +82,8 @@
             <div>
               <p class="titulo_cardIcons">Mural</p>
               <p>
-                Informações compartilhadas. Sobre<br />
-                qualquer tipo de evento no condomínio.
+                Informações compartilhadas. Sobre qualquer tipo de evento no
+                condomínio.
               </p>
             </div>
           </div>
@@ -97,8 +95,7 @@
             <div>
               <p class="titulo_cardIcons">Eventos</p>
               <p>
-                Múltiplos convites para substituir<br />
-                a clássica lista da festa.
+                Múltiplos convites para substituir a clássica lista da festa.
               </p>
             </div>
           </div>
@@ -117,10 +114,8 @@
             <div>
               <p class="titulo_cardIcons">Ocorrências e Enquetes</p>
               <p>
-                Em tempo real perceba a temperatura<br />
-                de intenções. No WhatsApp tudo<br />
-                se perde... Organize melhor o que<br />
-                o condomínio precisa.<br />
+                Em tempo real perceba a temperatura de intenções. No WhatsApp
+                tudo se perde... Organize melhor o que o condomínio precisa.<br />
               </p>
             </div>
           </div>
@@ -142,9 +137,8 @@
             <div>
               <p class="titulo_card">App do proprietário</p>
               <p>
-                Residencial e comercial. <br />
-                Livo é intuitivo e simples de usar, igual pedir comida no ifood
-                ou mandar um arquivo pelo WhatsApp. <br />
+                Residencial e comercial, o Livo é fácil de usar como pedir
+                comida no iFood ou enviar um arquivo pelo WhatsApp.
               </p>
             </div>
           </div>
@@ -169,10 +163,8 @@
             <div>
               <p class="titulo_card">LIVO web</p>
               <p>
-                Prático para quem usa no dia a dia,<br />
-                para as equipes nas portarias<br />
-                acessarem sem muitos cliques ou<br />
-                várias telas.<br />
+                Prático para quem usa no dia a dia, para as equipes nas
+                portarias acessarem sem muitos cliques ou várias telas.<br />
               </p>
             </div>
           </div>
@@ -184,9 +176,8 @@
             <div>
               <p class="titulo_card">LIVO relatórios</p>
               <p>
-                Para gerentes e síndicos<br />
-                acompanharem a estatística geral<br />
-                por meio de dados. Formato Power BI.<br />
+                Para gerentes e síndicos acompanharem a estatística geral por
+                meio de dados. Formato Power BI.
               </p>
             </div>
           </div>
@@ -522,7 +513,7 @@ p {
   }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1152px) {
   .card p {
     font-size: 0.7vw;
     margin: 0;
@@ -539,7 +530,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .cardIcons {
-    width: 120%;
+    width: 100%;
     left: 0vw;
     display: flex;
     margin-top: 6px;
@@ -558,9 +549,10 @@ p {
     font-family: "ArticulatCF";
     margin: 0;
     padding: 0;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     font-weight: 400;
     line-height: 1.3em;
+    font-weight: bold !important;
   }
   .titulo_cardIcons {
     margin-bottom: 0.5vw !important;
@@ -579,8 +571,8 @@ p {
   }
   .card {
     background: rgba(202, 110, 237, 0.6);
-    height: 25vw;
-    width: 20vw;
+    height: 31vw;
+    width: 22vw;
     border-radius: 20px;
     text-align: center;
     padding: 10px;
@@ -589,15 +581,18 @@ p {
   .card div {
     text-align: start;
   }
+  /* card p  098  */
   .card p {
-    font-size: 0.9vw;
+    font-size: 1.1vw;
     margin: 0;
-    font-weight: 400;
+    font-weight: 500;
+    font-weight: bold !important;
   }
   .titulo_card {
     font-weight: 500;
-    font-size: 1.4vw !important;
+    font-size: 2vw !important;
     margin: 0 0px 2px 0px !important;
+    font-weight: bold !important;
   }
 }
 @media screen and (max-width: 400px) {
@@ -608,7 +603,7 @@ p {
     height: 22vw;
     padding: 0vw;
     margin-top: 0vw;
-    top: 9vw;
+    top: 8vw;
   }
 
   .card {
@@ -655,6 +650,14 @@ p {
   }
   .card_branco {
     margin-bottom: 3vw;
+  }
+
+  @media screen and (min-width: 414px) and (max-width: 828px) {
+    .card p {
+      font-size: 1.4vw;
+      margin: 0;
+      font-weight: 600;
+    }
   }
 }
 </style>

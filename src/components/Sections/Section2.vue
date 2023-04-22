@@ -12,9 +12,8 @@
         <h1><LogoSNome class="logo" /><span>#LIVO</span>space</h1>
         <div class="box-descricao">
           <h2>
-            Nossa maior missão é diminuir <br />
-            burocracias, lentidão e falta de <br />
-            comunicação. <br />
+            Nossa maior missão é diminuir burocracias, lentidão e falta de
+            comunicação.
           </h2>
           <p>Chegou o seu momento de entrar em uma nova Era.</p>
           <div class="btn-conteudo">
@@ -121,6 +120,53 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  #section2 {
+    background: none;
+    margin: 0;
+    padding: 800px;
+    padding: 0;
+  }
+  .conteudo {
+    position: absolute;
+    top: 25vw;
+    width: 100%;
+    height: 70.8%;
+    z-index: 2;
+  }
+
+  .btn-conteudo span {
+    margin-left: 10px;
+    margin-right: 4px;
+    font-weight: 400;
+  }
+  .box-descricao {
+    padding: 0 15vw;
+  }
+
+  h1 span::before {
+    width: 1px;
+  }
+  h1 {
+    margin-top: 15px;
+    height: 23vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+    line-height: 1.2em;
+  }
+  p {
+    margin: 10px 0;
+    font-size: 2vw;
+    font-weight: 200;
+    padding: 0;
+  }
+
+  .btn-conteudo span {
+    margin-left: 10px;
+    margin-right: 4px;
+    font-weight: 600;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -130,18 +176,12 @@ p {
     padding: 800px;
     padding: 0;
   }
-  .background {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    margin-top: 120px;
-    position: relative;
-  }
+
   .conteudo {
     position: absolute;
-    top: 57vw;
+    top: 35vw;
     width: 100%;
-    height: 67.8%;
+    height: 50.8%;
     z-index: 2;
   }
   .box-descricao {

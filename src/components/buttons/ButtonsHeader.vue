@@ -41,7 +41,7 @@ const props = defineProps(["title", "icon"]);
 @media screen and (max-width: 600px) {
   .btn {
     min-width: 130px;
-    font-size: 0.7em;
+    font-size: 0.6em;
     padding: 0px 0px;
   }
 }

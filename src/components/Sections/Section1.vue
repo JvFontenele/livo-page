@@ -8,10 +8,10 @@
       </h1>
       {{ windowWidth.innerWidth }}
 
-      <p v-if="windowWidth > 400">
-        Controle de acesso, encomendas, reservas, <br />
-        comunicados entre diversas soluções para te levar <br />
-        do ZERO – 100 % Tecnológico.
+      <p v-if="windowWidth > 300">
+        Controle de acesso, encomendas, reservas, comunicados <br />
+        entre diversas soluções para te levar do <br />
+        ZERO – 100 % Tecnológico.
       </p>
     </div>
   </section>
@@ -54,10 +54,10 @@ p {
 @media screen and (max-width: 600px) {
   .box {
     display: block;
-    padding: 0em 9em 5em 10vw;
+    padding: 0em 8em 5em 10vw;
   }
   h1 {
-    font-size: 6vw;
+    font-size: 5.5vw;
     line-height: 0.9em;
     margin: 0 0 10px 0;
   }
@@ -65,7 +65,7 @@ p {
     margin: 0;
     padding: 0;
     font-family: "ArticulatCF";
-    font-size: 2.2vw;
+    font-size: 3vw;
   }
 }
 
@@ -79,10 +79,10 @@ p {
   }
   .box {
     display: block;
-    padding: 3vw 0em 0em 10vw;
+    padding: 3vw 1em 0em 3vw;
   }
   h1 {
-    font-size: 9vw;
+    font-size: 6vw;
     line-height: 0.8em;
     margin: 0 0 10px 0;
   }
@@ -90,8 +90,8 @@ p {
     margin: 0;
     padding: 0;
     font-family: "ArticulatCF";
-    font-size: 4vw;
-    max-width: 280px;
+    font-size: 2.7vw;
+    max-width: 260px;
   }
 }
 </style>
