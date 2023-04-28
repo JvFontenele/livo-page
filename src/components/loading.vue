@@ -10,8 +10,6 @@ function limparLoading() {
   fundo.value = false;
 }
 setInterval(limparLoading, 8500);
-
-
 </script>
 <template>
   <div v-if="fundo" :class="foguete ? 'fundo scene' : ' fundo scene limpar'">
@@ -1207,13 +1205,13 @@ setInterval(limparLoading, 8500);
       </g>
     </svg>
     <section class="rocket">
-      <img cal src="../assets/loading/foguete.svg" alt="Foguete." />
+      <img cal src="../assets/loading/foguete.gif" alt="Foguete." />
     </section>
   </div>
 </template>
 
 <style scoped>
-.limpar  {
+.limpar {
   display: none;
   animation-name: sumir;
   animation-duration: 4s;
@@ -1231,7 +1229,6 @@ setInterval(limparLoading, 8500);
   justify-content: center;
   z-index: 9999;
 }
-
 
 #ceu {
   height: 200%;
@@ -1287,7 +1284,7 @@ setInterval(limparLoading, 8500);
   z-index: 10px;
 }
 
-.rocket::before {
+/* .rocket::before {
   content: "";
   position: absolute;
   bottom: -85px;
@@ -1296,8 +1293,8 @@ setInterval(limparLoading, 8500);
   width: 15px;
   height: 200px;
   background: linear-gradient(#00d0ff, transparent);
-}
-.rocket::after {
+} */
+/* .rocket::after {
   content: "";
   position: absolute;
   bottom: -98px;
@@ -1307,7 +1304,7 @@ setInterval(limparLoading, 8500);
   height: 200px;
   background: linear-gradient(#00d0ff, transparent);
   filter: blur(20px);
-}
+} */
 
 /* -- Scene Rocket -- */
 
@@ -1430,12 +1427,9 @@ setInterval(limparLoading, 8500);
 /* -- Keyframes -- */
 
 @keyframes sumir {
- 
-  
   100% {
     top: -120%;
     opacity: 0.1;
   }
-
 }
 </style>

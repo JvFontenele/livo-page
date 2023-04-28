@@ -185,7 +185,7 @@ import LogoSNome from "../icons/LogoSNome.vue";
     color: var(--color-gray);
   }
   .cards p {
-    font-size: 1.8vw;
+    font-size: 2vw;
 
     color: #575591;
   }

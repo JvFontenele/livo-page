@@ -14,6 +14,12 @@
             >LGPD</a
           >
         </p>
+        <img
+          src="../assets/footer/Group-3.svg"
+          alt="Condomínio conectado"
+          style="display: table-column; margin-top: 20px; margin-right: 15px"
+        />
+        <img src="../assets/footer/Group-3.svg" alt="Condomínio conectado" />
       </div>
       <div class="redes">
         <h2>Baixe nosso APP</h2>
@@ -140,11 +146,20 @@ p {
     margin: 0;
     color: var(--color-gray);
   }
+  .booton {
+    top: -5vw;
+    left: -20vw;
+    display: flex;
+  }
+  .whats {
+    width: 19vw !important;
+    cursor: pointer;
+  }
   .text p {
-    font-size: 5px;
+    font-size: 6px;
   }
   .qrcode P {
-    font-size: 5px;
+    font-size: 6px;
   }
 }
 

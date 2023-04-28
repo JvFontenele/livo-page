@@ -112,11 +112,11 @@
 
 @media screen and (max-width: 600px) {
   .texto p {
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 200;
   }
   .texto h2 {
-    font-size: 3vw;
+    font-size: 3.2vw;
     font-weight: 600;
   }
 
@@ -126,7 +126,7 @@
     left: 18vw;
     z-index: 2;
     font-weight: 200;
-    font-size: 1.8vw;
+    font-size: 1.9vw;
     line-height: 1.3em;
   }
 }

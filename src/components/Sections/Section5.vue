@@ -164,7 +164,7 @@ p {
 
 @media screen and (max-width: 600px) {
   #section2 {
-    margin-top: -1.9vw;
+    margin-top: -2.4vw;
   }
 }
 
