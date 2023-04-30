@@ -26,4 +26,16 @@ export const links = {
       "_blank"
     );
   },
+  instagram: () => {
+    window.open(
+      "https://play.google.com/store/apps/details?id=com.livoapp&hl=en_IN&gl=US",
+      "_blank"
+    );
+  },
+  youtobe: () => {
+    window.open(
+      "https://play.google.com/store/apps/details?id=com.livoapp&hl=en_IN&gl=US",
+      "_blank"
+    );
+  },
 };

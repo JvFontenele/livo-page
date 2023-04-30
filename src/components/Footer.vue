@@ -14,12 +14,18 @@
             >LGPD</a
           >
         </p>
-        <img
-          src="../assets/footer/Group-3.svg"
-          alt="Condomínio conectado"
-          style="display: table-column; margin-top: 20px; margin-right: 15px"
-        />
-        <img src="../assets/footer/Group-3.svg" alt="Condomínio conectado" />
+        <div class="icones-redes">
+          <img
+            @click="links.instagram"
+            src="../assets/footer/instagram.svg"
+            alt="Instagram"
+          />
+          <img
+            @click="links.youtobe"
+            src="../assets/footer/youtobe.svg"
+            alt="Instagram"
+          />
+        </div>
       </div>
       <div class="redes">
         <h2>Baixe nosso APP</h2>
@@ -59,7 +65,7 @@
 </template>
 
 <script setup>
-import Logo from "./icons/Logo.vue";
+// import Logo from "./icons/Logo.vue";
 import { links } from "../links";
 </script>
 
@@ -105,6 +111,19 @@ p {
   width: 20vw;
   margin-top: 8px;
   cursor: pointer;
+}
+
+.icones-redes {
+  margin-top: 1vw;
+  display: flex;
+ 
+}
+
+.icones-redes img {
+  cursor: pointer;
+  width: 3.5vw;
+  margin-left: 10px;
+
 }
 
 .qrcode {
