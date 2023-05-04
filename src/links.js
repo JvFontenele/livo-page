@@ -27,15 +27,9 @@ export const links = {
     );
   },
   instagram: () => {
-    window.open(
-      "https://play.google.com/store/apps/details?id=com.livoapp&hl=en_IN&gl=US",
-      "_blank"
-    );
+    window.open("https://www.instagram.com/livoapp/", "_blank");
   },
   youtobe: () => {
-    window.open(
-      "https://play.google.com/store/apps/details?id=com.livoapp&hl=en_IN&gl=US",
-      "_blank"
-    );
+    window.open("https://www.youtube.com/watch?v=GZhLScqak5w", "_blank");
   },
 };
