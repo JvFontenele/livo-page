@@ -40,6 +40,7 @@
 
 .logo {
   height: 35vw;
+  animation: loader 2s ease-in-out infinite;
 }
 
 .textos {
@@ -75,5 +76,16 @@ h2 {
   padding: 1.1vw 0;
   line-height: 0.9em;
   font-size: 1.7vw;
+}
+
+@keyframes loader {
+  0%,
+  100% {
+    transform: translateY(-2vmin);
+  }
+
+  44% {
+    transform: translateY(2vmin);
+  }
 }
 </style>
