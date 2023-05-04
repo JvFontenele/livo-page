@@ -1,11 +1,11 @@
 <template>
-  <section id="section2">
+  <section id="section2"    class="background">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img
-      class="background"
+   <!--  <img
+   
       src="../../assets/secao6/background.png"
       alt="Condomínio conectado"
-    />
+    /> -->
 
     <div class="conteudo">
       <div class="box">
@@ -42,15 +42,19 @@
 
 <style scoped>
 #section2 {
-  background: none;
   margin: 0;
   padding: 0;
   margin-top: -8px;
 }
 
 .background {
+  background: url(../../assets/secao6/background.png);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
+  height: 50vw;
   width: 100%;
 }
 

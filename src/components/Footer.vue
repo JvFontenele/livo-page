@@ -72,7 +72,7 @@ import { links } from "../links";
 <style scoped>
 .footer {
   background: #1d1d1b;
-  height: 25vw;
+  height: 30vw;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -116,14 +116,12 @@ p {
 .icones-redes {
   margin-top: 1vw;
   display: flex;
- 
 }
 
 .icones-redes img {
   cursor: pointer;
   width: 3.5vw;
   margin-left: 10px;
-
 }
 
 .qrcode {
@@ -156,14 +154,8 @@ p {
 
 @media screen and (max-width: 750px) {
   .footer {
-    background: #1d1d1b;
-    height: 30vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 2vw 60px;
-    margin: 0;
-    color: var(--color-gray);
+    padding: 2vw 10px;
+    height: 40vw;
   }
   .booton {
     top: -5vw;
@@ -184,9 +176,17 @@ p {
 
 @media screen and (max-width: 300px) {
   .footer {
-    height: 40vw;
 
-    padding: 2vw 60px;
+    padding: 2vw 10px;
   }
+  h2 {
+  font-size: 1.6vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+  p {
+  font-family: "ArticulatCF";
+  font-size: 1.2vw !important;
+  font-weight: 300;
+}
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
-  <section id="section2">
+  <section id="section2" class="background">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img
+   <!--  <img
       class="background"
       src="../../assets/secao3/background.svg"
       alt="Aplicativo para gestão de condomínio"
-    />
+    /> -->
 
     <div class="conteudo">
       <div class="boxConteudo">
@@ -251,21 +251,24 @@
 
 <style scoped>
 #section2 {
-  background: none;
   margin: 0;
-  margin-top: -0.6vw;
+  margin-top: -0.8vw;
   padding: 0;
 }
 
 .background {
+  background: url(../../assets/secao3/background.svg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
+  height: 150vw;
   width: 100%;
 }
 
 .conteudo {
   position: absolute;
-  top: -4vw;
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -275,7 +278,6 @@
   width: 100%;
   height: 100%;
   display: flex;
-
   flex-direction: column;
   color: var(--color-gray);
 }
@@ -305,7 +307,7 @@ p {
   width: 100%;
   height: 40vw;
   padding: 0 12vw;
-  top: -80px;
+ 
   /* background: red; */
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -366,6 +368,7 @@ p {
   text-align: center;
 }
 .botao {
+  margin-top: 2.5vw;
   width: 7vw;
 }
 
@@ -436,19 +439,6 @@ p {
 }
 
 @media screen and (max-width: 1200px) {
-  #section2 {
-    background: none;
-    margin: 0;
-    margin-top: -6px;
-    padding: 0;
-  }
-  /* .background {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    margin-top: 120px;
-    position: relative;
-  } */
   .conteudo {
     position: absolute;
     top: 05vw;
@@ -473,9 +463,11 @@ p {
     justify-content: space-around;
     align-items: center;
   }
+
+
   .boxBtn {
     /* background: rebeccapurple; */
-    top: 11vw;
+    top: 8vw;
     text-align: center;
   }
 
@@ -520,7 +512,12 @@ p {
     font-weight: 400;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
+  #section2 {
+  margin: 0;
+  margin-top: -1vw;
+  padding: 0;
+}
   .boxIcones {
     /* background: red; */
     width: 100%;
@@ -596,6 +593,11 @@ p {
   }
 }
 @media screen and (max-width: 400px) {
+  #section2 {
+  margin: 0;
+  margin-top: -2vw;
+  padding: 0;
+}
   .boxBtn {
     top: 5vw;
   }

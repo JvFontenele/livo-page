@@ -1,7 +1,7 @@
 <template>
-  <section id="section2">
+  <section id="section2" class="background">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img class="background" src="../../assets/secao5/background.png" alt="" />
+    <!-- <img class="background" src="../../assets/secao5/background.png" alt="" /> -->
 
     <div class="conteudo">
       <div class="box1 card5">
@@ -53,7 +53,7 @@ import Loguinho from "../icons/Loguinho.vue";
 
 <style scoped>
 #section2 {
-  background: none;
+
   margin: 0;
   padding: 0;
   margin-top: -0.7vw;
@@ -68,8 +68,13 @@ p {
 }
 
 .background {
+  background: url(../../assets/secao5/background.png);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
+  height: 130vw;
   width: 100%;
 }
 
@@ -181,6 +186,11 @@ p {
   }
 }
 @media screen and (max-width: 300px) {
+  .background {
+
+  height: 150vw;
+  width: 100%;
+}
   .card4 {
     top: -16vw;
     margin-top: 0vw;

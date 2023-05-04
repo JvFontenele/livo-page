@@ -71,4 +71,11 @@ import { links } from "../links";
     height: 45px;
   }
 }
+@media screen and (max-width: 350px) {
+  .whats {
+    right: 25px;
+    width: 35px;
+    height: 35px;
+  }
+}
 </style>

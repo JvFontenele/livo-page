@@ -12,9 +12,8 @@ const loading = ref(true);
 function carregar() {
   setInterval(() => {
     loading.value = false;
-  }, 8500);
+  }, 2000);
 }
-onBeforeMount(() => {});
 </script>
 
 <style>
