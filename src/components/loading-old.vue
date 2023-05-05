@@ -1285,7 +1285,7 @@ setInterval(limparLoading, 8500);
   z-index: 10px;
 }
 
-/* .rocket::before {
+.rocket::before {
   content: "";
   position: absolute;
   bottom: -85px;
@@ -1294,8 +1294,8 @@ setInterval(limparLoading, 8500);
   width: 15px;
   height: 200px;
   background: linear-gradient(#00d0ff, transparent);
-} */
-/* .rocket::after {
+}
+.rocket::after {
   content: "";
   position: absolute;
   bottom: -98px;
@@ -1305,7 +1305,7 @@ setInterval(limparLoading, 8500);
   height: 200px;
   background: linear-gradient(#00d0ff, transparent);
   filter: blur(20px);
-} */
+}
 
 /* -- Scene Rocket -- */
 

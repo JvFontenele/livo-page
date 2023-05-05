@@ -1,11 +1,11 @@
 <template>
-  <section id="section2">
+  <section id="section2" class="background">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img
+    <!--  <img
       class="background"
       src="../../assets/secao7/background.png"
       alt="Gestão de correspondência"
-    />
+    /> -->
 
     <div class="conteudo">
       <div>
@@ -95,15 +95,16 @@ import LogoSNome from "../icons/LogoSNome.vue";
 
 <style scoped>
 #section2 {
-  background: none;
   margin: 0;
   padding: 0;
   margin-top: -0.88vw;
 }
 
 .background {
+  background: #a3afde;
   margin: 0;
   padding: 0;
+  height: 50vw;
   width: 100%;
 }
 
@@ -152,6 +153,13 @@ import LogoSNome from "../icons/LogoSNome.vue";
   }
 
   @media screen and (max-width: 600px) {
+    .background {
+  background: #a3afde;
+  margin: 0;
+  padding: 0;
+  height: 70vw;
+  width: 100%;
+}
     .cards p {
       font-size: 1.7vw;
       color: #575591;

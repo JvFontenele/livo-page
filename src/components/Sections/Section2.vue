@@ -1,11 +1,10 @@
 <template>
-  <section id="section2">
-    <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img
-      class="background"
+  <section id="section2" class="background">
+  <!--   <img
+      
       src="../../assets/secao2/background-foquete.svg"
       alt="Aplicativo para condomínio"
-    />
+    /> -->
 
     <div class="conteudo">
       <div class="boxConteudo">
@@ -31,15 +30,20 @@ import LogoSNome from "../icons/LogoSNome.vue";
 
 <style scoped>
 #section2 {
-  background: none;
+
   margin: 0;
 
   padding: 0;
 }
 
 .background {
+  background: url(../../assets/secao2/background-foquete.svg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
+  height: 100vw;
   width: 100%;
 }
 
@@ -121,7 +125,7 @@ p {
 
 @media screen and (max-width: 600px) {
   #section2 {
-    background: none;
+   
     margin: 0;
     padding: 800px;
     padding: 0;
@@ -171,7 +175,7 @@ p {
 
 @media screen and (max-width: 400px) {
   #section2 {
-    background: none;
+
     margin: 0;
     padding: 800px;
     padding: 0;

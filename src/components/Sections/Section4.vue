@@ -1,7 +1,7 @@
 <template>
-  <section id="section2">
+  <section id="section2" class="background">
     <!-- <img class="foquete" src="../../assets/secao2/foquete.svg" alt="" /> -->
-    <img class="background" src="../../assets/secao4/background.svg" alt="" />
+    <!-- <img  src="../../assets/secao4/background.svg" alt="" /> -->
 
     <div class="conteudo">
       <div class="box1 card1">
@@ -93,15 +93,19 @@ import Loguinho from "../icons/Loguinho.vue";
 
 <style scoped>
 #section2 {
-  background: none;
   margin: 0;
   padding: 0;
   margin-top: -0.8vw;
 }
 
 .background {
+  background: url(../../assets/secao4/background.svg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
+  height: 150vw;
   width: 100%;
 }
 
