@@ -154,12 +154,12 @@ import LogoSNome from "../icons/LogoSNome.vue";
 
   @media screen and (max-width: 600px) {
     .background {
-  background: #a3afde;
-  margin: 0;
-  padding: 0;
-  height: 70vw;
-  width: 100%;
-}
+      background: #a3afde;
+      margin: 0;
+      padding: 0;
+      height: 70vw;
+      width: 100%;
+    }
     .cards p {
       font-size: 1.7vw;
       color: #575591;
@@ -167,7 +167,7 @@ import LogoSNome from "../icons/LogoSNome.vue";
     .background {
       margin: 0;
       padding: 0;
-      width: 140%;
+      width: 100%;
     }
   }
 
@@ -206,7 +206,7 @@ import LogoSNome from "../icons/LogoSNome.vue";
   .background {
     margin: 0;
     padding: 0;
-    width: 150%;
+    width: 100%;
   }
   .conteudo {
     top: 5vw;

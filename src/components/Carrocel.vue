@@ -7,7 +7,7 @@
     wrapAround
   >
     <slide v-for="image in images" :key="image.id">
-      <img :src="image.src" alt="Aplicativo para gestão de condomínio" />
+      <img :src="image.src" alt="Aplicativo para  gestão de  condomínio" />
     </slide>
 
     <template #addons> </template>
@@ -18,7 +18,7 @@ import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 
 const images = [
-  { id: 0, src: "src/assets/carrocel/Rectangle-0.png" },
+  { id: 0, src: "src/assets/carrocel/Rectangle.png" },
   { id: 1, src: "src/assets/carrocel/Rectangle-1.png" },
   { id: 2, src: "src/assets/carrocel/Rectangle-2.png" },
   { id: 3, src: "src/assets/carrocel/Rectangle-3.png" },
