@@ -6,9 +6,122 @@
     transition="2000"
     wrapAround
   >
-    <slide v-for="image in images" :key="image.id">
-      <img :src="image.src" alt="Aplicativo para  gestão de  condomínio" />
+    <slide key="1" >
+      <img
+        src="@/assets/carrocel/Rectangle.png"
+        alt="Aplicativo para  gestão de  condomínio"
+      />
     </slide>
+    <slide key="2">
+      <img
+        src="@/assets/carrocel/Rectangle-1.png"
+        alt="Aplicativo para  gestão de  condomínio"
+      /> </slide
+    ><slide key="3">
+      <img
+        src="@/assets/carrocel/Rectangle-2.png"
+        alt="Aplicativo para  gestão de  condomínio"
+      /> </slide
+    ><slide key="4">
+      <img
+        src="@/assets/carrocel/Rectangle-3.png"
+        alt="Aplicativo para  gestão de  condomínio"
+      /> </slide
+    ><slide key="5">
+      <img
+        src="@/assets/carrocel/Rectangle-4.png"
+        alt="Aplicativo para  gestão de  condomínio"
+      /> </slide
+    ><slide key="6">
+      <img
+        src="@/assets/carrocel/Rectangle-5.png"
+        alt="Aplicativo para  gestão de  condomínio"
+      /> </slide
+    ><slide key="7">
+      <img
+        src="@/assets/carrocel/Rectangle-6.png"
+        alt="Aplicativo para  gestão de  condomínio"
+      /> </slide
+    ><slide key="8">
+      <img
+        src="@/assets/carrocel/Rectangle-7.png"
+        alt="Aplicativo para  gestão de  condomínio"
+      /> </slide
+    ><slide key="9">
+      <img
+        src="@/assets/carrocel/Rectangle-8.png"
+        alt="Aplicativo para  gestão de  condomínio"
+      /> </slide
+    ><slide key="10">
+      <img
+        src="@/assets/carrocel/Rectangle-9.png"
+        alt="Aplicativo para  gestão de  condomínio"
+      /> </slide
+    ><slide key="11">
+      <img
+        src="@/assets/carrocel/Rectangle-10.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="12">
+      <img
+        src="@/assets/carrocel/Rectangle-11.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="13">
+      <img
+        src="@/assets/carrocel/Rectangle-12.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="14">
+      <img
+        src="@/assets/carrocel/Rectangle-13.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="15">
+      <img
+        src="@/assets/carrocel/Rectangle-14.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="16">
+      <img
+        src="@/assets/carrocel/Rectangle-15.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="17">
+      <img
+        src="@/assets/carrocel/Rectangle-16.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="18">
+      <img
+        src="@/assets/carrocel/Rectangle-17.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="19">
+      <img
+        src="@/assets/carrocel/Rectangle-18.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="20">
+      <img
+        src="@/assets/carrocel/Rectangle-19.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="21">
+      <img
+        src="@/assets/carrocel/Rectangle-20.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="22">
+      <img
+        src="@/assets/carrocel/Rectangle-21.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
+    <slide key="23">
+      <img
+        src="@/assets/carrocel/Rectangle-22.png"
+        alt="Aplicativo para  gestão de  condomínio"
+    /></slide>
 
     <template #addons> </template>
   </carousel>

@@ -2,7 +2,7 @@
   <header class="header">
     <Logo class="logo" />
     <div class="boxBtn">
-      <ButtonsHeader
+      <!-- <ButtonsHeader
         @click="links.whats"
         title="LIVO COMERCIAL"
         icon="/src/assets/secao1/whatsIcon.svg"
@@ -11,7 +11,16 @@
         @click="links.web"
         title="LIVO WEB"
         icon="/src/assets/secao1/headersetinhaIcon.svg"
-      />
+      /> -->
+
+      <button class="btn"  @click="links.whats">
+        LIVO COMERCIAL
+      <img class="img" src="@/assets/secao1/whatsIcon.svg" />
+    </button>
+    <button class="btn"  @click="links.web">
+      LIVO WEB
+      <img class="img" src="@/assets/secao1/headersetinhaIcon.svg" />
+    </button>
     </div>
   </header>
 </template>
@@ -78,6 +87,58 @@ import { links } from "../links";
   .boxBtn {
     display: flex;
     max-width: 250px;
+  }
+}
+
+
+
+
+
+.btn {
+  background: var(--color-btn-header);
+  color: var(--color-gray);
+  min-width: 172px;
+  display: flex;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 15px 10px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: var(--color-btn-header-hover);
+}
+.img {
+  width: 20px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    min-width: 130px;
+    font-size: 0.6em;
+    padding: 0px 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btn {
+    min-width: 110px;
+    height: 32px;
+    font-size: 0.6em;
+    padding: 0px 0px;
+  }
+  .img {
+    width: 15px;
+    margin-bottom: 2px;
+    margin-left: 5px;
   }
 }
 </style>
